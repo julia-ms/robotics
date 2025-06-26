@@ -1,0 +1,32 @@
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/src/build/tp2'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/src/build/tp2'
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/src/build/tp2'
+[100%] Built target mapping
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/src/build/tp2'
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/src/build/tp2'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/src/build/tp2'
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/src/build/tp2'
+[100%] Built target mapping
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/src/build/tp2'
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/lib/tp2/mapping
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/launch
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/launch/p3dx-rosaria.launch.py
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/config
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/config/p3dx.rviz
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/ament_index/resource_index/package_run_dependencies/tp2
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/ament_index/resource_index/parent_prefix_path/tp2
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/environment/path.sh
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/environment/path.dsv
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/local_setup.bash
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/local_setup.sh
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/local_setup.zsh
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/local_setup.dsv
+-- Installing: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/package.dsv
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/ament_index/resource_index/packages/tp2
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/cmake/tp2Config.cmake
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/cmake/tp2Config-version.cmake
+-- Up-to-date: /home/jumombach/ros2_ws/src/install/tp2/share/tp2/package.xml

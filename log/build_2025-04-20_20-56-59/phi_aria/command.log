@@ -1,0 +1,4 @@
+Invoking command in '/home/jumombach/ros2_ws/build/phi_aria': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/phi_aria -- -j8 -l8
+Invoked command in '/home/jumombach/ros2_ws/build/phi_aria' returned '0': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/phi_aria -- -j8 -l8
+Invoking command in '/home/jumombach/ros2_ws/build/phi_aria': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/phi_aria --target install -- -j8 -l8
+Invoked command in '/home/jumombach/ros2_ws/build/phi_aria' returned '0': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/phi_aria --target install -- -j8 -l8

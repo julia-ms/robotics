@@ -1,0 +1,55 @@
+[0.021s] Invoking command in '/home/jumombach/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+[0.116s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.119s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.140s] [35m[1mScanning dependencies of target navigation[0m
+[0.278s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.283s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.285s] [ 40%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[0.285s] [ 40%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+[0.668s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[0.668s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.668s]    11 | void Action::avoidObstacles(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.668s]       |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.668s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[0.668s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:69:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kfloat[m[K’
+[0.668s]    69 |     [01;31m[Kfloat[m[K left_distance = lasers[0];
+[0.668s]       |     [01;31m[K^~~~~[m[K
+[0.672s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:75:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_dist[m[K’ was not declared in this scope; did you mean ‘[01m[Kright_distance[m[K’?
+[0.672s]    75 |         cte = [01;31m[Kright_dist[m[K - left_dist;
+[0.672s]       |               [01;31m[K^~~~~~~~~~[m[K
+[0.672s]       |               [32m[Kright_distance[m[K
+[0.676s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:75:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_dist[m[K’ was not declared in this scope
+[0.676s]    75 |         cte = right_dist - [01;31m[Kleft_dist[m[K;
+[0.676s]       |                            [01;31m[K^~~~~~~~~[m[K
+[0.680s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:77:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_distance[m[K’ was not declared in this scope; did you mean ‘[01m[Kfront_distance[m[K’?
+[0.681s]    77 |         float min_side = std::min([01;31m[Kleft_distance[m[K, right_distance);
+[0.681s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[0.681s]       |                                   [32m[Kfront_distance[m[K
+[0.684s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kderivative[m[K’ was not declared in this scope
+[0.684s]    85 |     [01;31m[Kderivative[m[K = cte - prev_cte;
+[0.684s]       |     [01;31m[K^~~~~~~~~~[m[K
+[0.687s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:88:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kki[m[K’ was not declared in this scope; did you mean ‘[01m[Kkd[m[K’?
+[0.687s]    88 |     angVel = kp * cte + [01;31m[Kki[m[K * cte_integral + kd * derivative;
+[0.687s]       |                         [01;31m[K^~[m[K
+[0.687s]       |                         [32m[Kkd[m[K
+[0.687s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:65:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.687s]    65 |     float [01;35m[Kfi[m[K = 0.0;
+[0.688s]       |           [01;35m[K^~[m[K
+[0.688s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:61:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.688s]    61 | void Action::keepAsFarthestAsPossibleFromWalls(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.688s]       |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.746s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:76: CMakeFiles/navigation.dir/src/Action.cpp.o] Error 1
+[0.746s] gmake[2]: *** Waiting for unfinished jobs....
+[2.423s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* keyboardThreadFunction(void*)[m[K’:
+[2.423s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/main.cpp:78:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.423s]    78 | void *keyboardThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.423s]       |                              [01;35m[K~~~~~~^~~[m[K
+[2.427s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/main.cpp:[m[K In function ‘[01m[Kvoid* mainThreadFunction(void*)[m[K’:
+[2.427s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/main.cpp:92:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.427s]    92 | void *mainThreadFunction([01;35m[Kvoid *arg[m[K)
+[2.427s]       |                          [01;35m[K~~~~~~^~~[m[K
+[9.185s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[9.185s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Error 2
+[9.185s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[9.185s] gmake: *** [Makefile:141: all] Error 2
+[9.186s] Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8

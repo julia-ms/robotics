@@ -1,0 +1,78 @@
+[0.026s] Invoking command in '/home/jumombach/ros2_ws/build/tp2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 -- -j8 -l8
+[0.076s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[0.080s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[0.088s] [35m[1mScanning dependencies of target mapping[0m
+[0.117s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[0.126s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[0.129s] [ 25%] [32mBuilding CXX object CMakeFiles/mapping.dir/src/Perception.cpp.o[0m
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::OccupancyGrid& Perception::updateMapLaserWithHIMM(const std::vector<float, std::allocator<float> >&, const Pose2D&)[m[K’:
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:144:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.707s]   144 |     int [01;35m[Krx[m[K = robot.x*scale_;
+[2.707s]       |         [01;35m[K^~[m[K
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:145:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.707s]   145 |     int [01;35m[Kry[m[K = robot.y*scale_;
+[2.707s]       |         [01;35m[K^~[m[K
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:148:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klambda_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.707s]   148 |     float [01;35m[Klambda_r[m[K = 0.2; //  20 cm
+[2.707s]       |           [01;35m[K^~~~~~~~[m[K
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:149:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klambda_phi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.707s]   149 |     float [01;35m[Klambda_phi[m[K = 1.0;  // 1 degree
+[2.707s]       |           [01;35m[K^~~~~~~~~~[m[K
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:150:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxRangeInt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.707s]   150 |     int [01;35m[KmaxRangeInt[m[K = maxRange*scale_;
+[2.707s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:142:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.707s]   142 | s::msg::OccupancyGrid& Perception::updateMapLaserWithHIMM([01;35m[Kconst std::vector<float>& z[m[K, const Pose2D& robot)
+[2.707s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.707s] 
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::OccupancyGrid& Perception::updateMapSonar(const std::vector<float, std::allocator<float> >&, const Pose2D&)[m[K’:
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:171:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.707s]   171 |     int [01;35m[Krx[m[K = robot.x*scale_;
+[2.707s]       |         [01;35m[K^~[m[K
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:172:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.707s]   172 |     int [01;35m[Kry[m[K = robot.y*scale_;
+[2.707s]       |         [01;35m[K^~[m[K
+[2.707s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:175:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klambda_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.708s]   175 |     float [01;35m[Klambda_r[m[K = 0.2; //  50 cm
+[2.708s]       |           [01;35m[K^~~~~~~~[m[K
+[2.708s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:176:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxRangeInt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.708s]   176 |     int [01;35m[KmaxRangeInt[m[K = maxRange*scale_;
+[2.708s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[2.708s] [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:169:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.708s]   169 | nav_msgs::msg::OccupancyGrid& Perception::updateMapSonar([01;35m[Kconst std::vector<float>& z[m[K, const Pose2D& robot)
+[2.708s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.315s] [ 50%] [32m[1mLinking CXX executable mapping[0m
+[4.238s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[4.240s] [100%] Built target mapping
+[4.240s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[4.244s] Invoked command in '/home/jumombach/ros2_ws/build/tp2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 -- -j8 -l8
+[4.262s] Invoking command in '/home/jumombach/ros2_ws/build/tp2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 --target install -- -j8 -l8
+[4.272s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[4.275s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[4.278s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[4.289s] [100%] Built target mapping
+[4.290s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[4.295s] [36mInstall the project...[0m
+[4.297s] -- Install configuration: ""
+[4.299s] -- Installing: /home/jumombach/ros2_ws/install/tp2/lib/tp2/mapping
+[4.305s] -- Set runtime path of "/home/jumombach/ros2_ws/install/tp2/lib/tp2/mapping" to ""
+[4.305s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/launch
+[4.305s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/launch/p3dx-rosaria.launch.py
+[4.305s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/config
+[4.306s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/config/p3dx.rviz
+[4.306s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/package_run_dependencies/tp2
+[4.306s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/parent_prefix_path/tp2
+[4.306s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/ament_prefix_path.sh
+[4.307s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/ament_prefix_path.dsv
+[4.307s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/path.sh
+[4.307s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/path.dsv
+[4.307s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.bash
+[4.307s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.sh
+[4.307s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.zsh
+[4.307s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.dsv
+[4.307s] -- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/package.dsv
+[4.308s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/packages/tp2
+[4.308s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/cmake/tp2Config.cmake
+[4.308s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/cmake/tp2Config-version.cmake
+[4.308s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/package.xml
+[4.311s] Invoked command in '/home/jumombach/ros2_ws/build/tp2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 --target install -- -j8 -l8

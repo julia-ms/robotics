@@ -1,0 +1,52 @@
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+[35m[1mScanning dependencies of target localization[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+[ 25%] [32mBuilding CXX object CMakeFiles/localization.dir/src/Perception.cpp.o[0m
+[01m[K/home/jumombach/ros2_ws/src/tp4/src/Perception.cpp:[m[K In member function ‘[01m[Kvoid Perception::MCL_weighting(const std::vector<float>&)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp4/src/Perception.cpp:66:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   66 | void Perception::MCL_weighting([01;35m[Kconst std::vector<float> &z[m[K)
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[ 50%] [32m[1mLinking CXX executable localization[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+[100%] Built target localization
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+[100%] Built target localization
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/jumombach/ros2_ws/install/tp4/lib/tp4/localization
+-- Set runtime path of "/home/jumombach/ros2_ws/install/tp4/lib/tp4/localization" to ""
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/launch
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/launch/p3dx-rosaria.launch.py
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/config
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/config/p3dx.rviz
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/denseMap.pgm
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/denseMap.yaml
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/ambiguousMap.map
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/ambiguousMap.yaml
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/sparseMap.map
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/sparseMap.yaml
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/ambiguousMap.pgm
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/sparseMap.pgm
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/denseMap.map
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/ament_index/resource_index/package_run_dependencies/tp4
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/ament_index/resource_index/parent_prefix_path/tp4
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/environment/path.sh
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/environment/path.dsv
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/local_setup.bash
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/local_setup.sh
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/local_setup.zsh
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/local_setup.dsv
+-- Installing: /home/jumombach/ros2_ws/install/tp4/share/tp4/package.dsv
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/ament_index/resource_index/packages/tp4
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/cmake/tp4Config.cmake
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/cmake/tp4Config-version.cmake
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/package.xml

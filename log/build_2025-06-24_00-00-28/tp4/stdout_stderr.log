@@ -1,0 +1,25 @@
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+[35m[1mScanning dependencies of target localization[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+[ 25%] [32mBuilding CXX object CMakeFiles/localization.dir/src/Perception.cpp.o[0m
+[01m[K/home/jumombach/ros2_ws/src/tp4/src/Perception.cpp:[m[K In member function ‘[01m[Kvoid Perception::MCL_weighting(const std::vector<float>&)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp4/src/Perception.cpp:89:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   89 |         if ([01;35m[Kix >= numCellsX_[m[K || iy >= numCellsY_){ // fora do mapa
+      |             [01;35m[K~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp4/src/Perception.cpp:89:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   89 |         if (ix >= numCellsX_ || [01;35m[Kiy >= numCellsY_[m[K){ // fora do mapa
+      |                                 [01;35m[K~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp4/src/Perception.cpp:100:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  100 |         for(int k = 0; [01;35m[Kk < z.size()[m[K; k +=10){
+      |                        [01;35m[K~~^~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp4/src/Perception.cpp:102:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kparticles[m[K’ was not declared in this scope; did you mean ‘[01m[Kparticles_[m[K’?
+  102 |             double expected_zk = computeExpectedMeasurement(k, [01;31m[Kparticles[m[K[i]_.p);
+      |                                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                                [32m[Kparticles_[m[K
+gmake[2]: *** [CMakeFiles/localization.dir/build.make:76: CMakeFiles/localization.dir/src/Perception.cpp.o] Error 1
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/localization.dir/all] Error 2
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+gmake: *** [Makefile:141: all] Error 2

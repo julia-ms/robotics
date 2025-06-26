@@ -1,0 +1,4 @@
+source;share/tp4/local_setup.bash
+source;share/tp4/local_setup.dsv
+source;share/tp4/local_setup.sh
+source;share/tp4/local_setup.zsh

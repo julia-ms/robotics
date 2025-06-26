@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/home/jumombach/ros2_ws/build/tp1': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+[0.025s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.028s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.031s] [35m[1mScanning dependencies of target navigation[0m
+[0.034s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.048s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.048s] [ 20%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[0.319s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[0.319s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.319s]    11 |  lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.319s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.319s] 
+[0.324s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[0.324s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:66:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmod[m[K’ was not declared in this scope; did you mean ‘[01m[Kmodf[m[K’?
+[0.324s]    66 |         if([01;31m[Kmod[m[K(lasers[0]-lasers[180]) < 5){
+[0.325s]       |            [01;31m[K^~~[m[K
+[0.325s]       |            [32m[Kmodf[m[K
+[0.325s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:60:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.325s]    60 |  lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.325s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.325s] 
+[0.373s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:76: CMakeFiles/navigation.dir/src/Action.cpp.o] Error 1
+[0.373s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.373s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Error 2
+[0.373s] gmake: *** [Makefile:141: all] Error 2
+[0.373s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.375s] Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '2': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8

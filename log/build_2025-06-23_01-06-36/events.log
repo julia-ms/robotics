@@ -1,0 +1,505 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (phi_aria) JobQueued: {'identifier': 'phi_aria', 'dependencies': OrderedDict()}
+[0.000362] (tp1) JobQueued: {'identifier': 'tp1', 'dependencies': OrderedDict()}
+[0.000376] (tp2) JobQueued: {'identifier': 'tp2', 'dependencies': OrderedDict()}
+[0.000386] (tp3) JobQueued: {'identifier': 'tp3', 'dependencies': OrderedDict()}
+[0.001244] (phi_aria) JobStarted: {'identifier': 'phi_aria'}
+[0.012136] (tp1) JobStarted: {'identifier': 'tp1'}
+[0.015931] (tp2) JobStarted: {'identifier': 'tp2'}
+[0.021808] (tp3) JobStarted: {'identifier': 'tp3'}
+[0.028521] (phi_aria) JobProgress: {'identifier': 'phi_aria', 'progress': 'cmake'}
+[0.031025] (phi_aria) JobProgress: {'identifier': 'phi_aria', 'progress': 'build'}
+[0.031116] (phi_aria) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/phi_aria', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/phi_aria', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/25238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/phi_aria'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.036639] (tp1) JobProgress: {'identifier': 'tp1', 'progress': 'cmake'}
+[0.038190] (tp1) JobProgress: {'identifier': 'tp1', 'progress': 'build'}
+[0.038956] (tp1) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp1', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/25238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.041287] (tp2) JobProgress: {'identifier': 'tp2', 'progress': 'cmake'}
+[0.043637] (tp2) JobProgress: {'identifier': 'tp2', 'progress': 'build'}
+[0.043955] (tp2) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp2', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/25238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.049797] (tp3) JobProgress: {'identifier': 'tp3', 'progress': 'cmake'}
+[0.053137] (tp3) Command: {'cmd': ['/usr/local/bin/cmake', '/home/jumombach/ros2_ws/src/tp3', '-DCMAKE_INSTALL_PREFIX=/home/jumombach/ros2_ws/install/tp3'], 'cwd': '/home/jumombach/ros2_ws/build/tp3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/25238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.098980] (phi_aria) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[0.099411] (tp1) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.099640] (-) TimerEvent: {}
+[0.099866] (tp2) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[0.104929] (tp1) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.105723] (tp2) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[0.106628] (phi_aria) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[0.111376] (tp1) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.111772] (tp2) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[0.115099] (phi_aria) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[0.163632] (phi_aria) StdoutLine: {'line': b'[100%] Built target phi_p3dx\n'}
+[0.164119] (tp2) StdoutLine: {'line': b'[100%] Built target mapping\n'}
+[0.164377] (tp1) StdoutLine: {'line': b'[100%] Built target navigation\n'}
+[0.164516] (tp2) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[0.164587] (tp1) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.164643] (phi_aria) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[0.168242] (tp2) CommandEnded: {'returncode': 0}
+[0.169536] (phi_aria) CommandEnded: {'returncode': 0}
+[0.172130] (tp1) CommandEnded: {'returncode': 0}
+[0.188347] (tp2) JobProgress: {'identifier': 'tp2', 'progress': 'install'}
+[0.190865] (tp2) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp2', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/25238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.192606] (phi_aria) JobProgress: {'identifier': 'phi_aria', 'progress': 'install'}
+[0.194066] (phi_aria) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/phi_aria', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/phi_aria', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/25238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/phi_aria'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.194897] (tp1) JobProgress: {'identifier': 'tp1', 'progress': 'install'}
+[0.196097] (tp1) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp1', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/25238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.199772] (-) TimerEvent: {}
+[0.202830] (tp2) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[0.206058] (tp2) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[0.206717] (phi_aria) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[0.207817] (tp1) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.209724] (tp1) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.210001] (tp2) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[0.210600] (phi_aria) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[0.214079] (tp1) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.216290] (phi_aria) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[0.226721] (tp2) StdoutLine: {'line': b'[100%] Built target mapping\n'}
+[0.227102] (tp2) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[0.231556] (tp1) StdoutLine: {'line': b'[100%] Built target navigation\n'}
+[0.231894] (tp1) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.232558] (tp2) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.232801] (phi_aria) StdoutLine: {'line': b'[100%] Built target phi_p3dx\n'}
+[0.233037] (phi_aria) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[0.235346] (tp2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.236616] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/lib/tp2/mapping\n'}
+[0.236956] (tp1) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.237093] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/launch\n'}
+[0.237319] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/launch/p3dx-rosaria.launch.py\n'}
+[0.237545] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/config\n'}
+[0.237771] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/config/p3dx.rviz\n'}
+[0.238124] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/package_run_dependencies/tp2\n'}
+[0.238210] (phi_aria) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.238354] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/parent_prefix_path/tp2\n'}
+[0.238497] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/ament_prefix_path.sh\n'}
+[0.238712] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/ament_prefix_path.dsv\n'}
+[0.238977] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/path.sh\n'}
+[0.239073] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/path.dsv\n'}
+[0.239135] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.bash\n'}
+[0.239207] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.sh\n'}
+[0.239267] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.zsh\n'}
+[0.239418] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.dsv\n'}
+[0.239551] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/package.dsv\n'}
+[0.239765] (tp1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.240136] (phi_aria) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.240385] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/packages/tp2\n'}
+[0.240648] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/cmake/tp2Config.cmake\n'}
+[0.240829] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/cmake/tp2Config-version.cmake\n'}
+[0.240895] (tp2) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/package.xml\n'}
+[0.240943] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/lib/tp1/navigation\n'}
+[0.241160] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/lib/phi_aria/phi_p3dx\n'}
+[0.241390] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description\n'}
+[0.242021] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf\n'}
+[0.242364] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/launch\n'}
+[0.243129] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/launch/p3dx-rosaria.launch.py\n'}
+[0.243280] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/config\n'}
+[0.243416] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/pioneer3dx_wheel.xacro\n'}
+[0.243599] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/sick_lms100.urdf.xacro\n'}
+[0.243720] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/common.xacro\n'}
+[0.243839] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/p3dx.urdf.xacro\n'}
+[0.243959] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes\n'}
+[0.244080] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/top.stl\n'}
+[0.244226] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/left_hubcap.stl\n'}
+[0.244363] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_swivel.stl\n'}
+[0.244494] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_wheel.stl\n'}
+[0.244620] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/chassis.stl\n'}
+[0.245886] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/config/p3dx.rviz\n'}
+[0.246121] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/ament_index/resource_index/package_run_dependencies/tp1\n'}
+[0.246735] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/ament_index/resource_index/parent_prefix_path/tp1\n'}
+[0.246888] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/right_wheel.stl\n'}
+[0.247021] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/right_hubcap.stl\n'}
+[0.247312] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/front_sonar.stl\n'}
+[0.247433] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_hubcap.stl\n'}
+[0.247547] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/left_wheel.stl\n'}
+[0.247667] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/front_rim.stl\n'}
+[0.247786] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/back_rim.stl\n'}
+[0.247895] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/back_sonar.stl\n'}
+[0.248002] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/sensors_meshes\n'}
+[0.248222] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/sensors_meshes/sick_lms100.stl\n'}
+[0.248346] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/ament_index/resource_index/package_run_dependencies/phi_aria\n'}
+[0.248437] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/ament_index/resource_index/parent_prefix_path/phi_aria\n'}
+[0.248479] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/environment/ament_prefix_path.sh\n'}
+[0.248516] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/environment/ament_prefix_path.dsv\n'}
+[0.248551] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/environment/path.sh\n'}
+[0.248587] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/environment/path.dsv\n'}
+[0.248622] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/local_setup.bash\n'}
+[0.248656] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/local_setup.sh\n'}
+[0.248690] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/local_setup.zsh\n'}
+[0.248745] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/local_setup.dsv\n'}
+[0.248833] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.dsv\n'}
+[0.248962] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.sh\n'}
+[0.249093] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.dsv\n'}
+[0.249211] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/path.sh\n'}
+[0.249328] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/path.dsv\n'}
+[0.249438] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.bash\n'}
+[0.249556] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.sh\n'}
+[0.249679] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.zsh\n'}
+[0.249802] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.dsv\n'}
+[0.249919] (tp1) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp1/share/tp1/package.dsv\n'}
+[0.250042] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/ament_index/resource_index/packages/tp1\n'}
+[0.250162] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/cmake/tp1Config.cmake\n'}
+[0.250286] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/cmake/tp1Config-version.cmake\n'}
+[0.250401] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/package.xml\n'}
+[0.250515] (tp2) CommandEnded: {'returncode': 0}
+[0.250965] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/ament_index/resource_index/packages/phi_aria\n'}
+[0.251103] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/cmake/phi_ariaConfig.cmake\n'}
+[0.251163] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/cmake/phi_ariaConfig-version.cmake\n'}
+[0.251288] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.xml\n'}
+[0.273105] (tp1) CommandEnded: {'returncode': 0}
+[0.283934] (phi_aria) CommandEnded: {'returncode': 0}
+[0.299879] (-) TimerEvent: {}
+[0.300562] (tp2) JobEnded: {'identifier': 'tp2', 'rc': 0}
+[0.308843] (tp1) JobEnded: {'identifier': 'tp1', 'rc': 0}
+[0.311606] (tp3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.316668] (phi_aria) JobEnded: {'identifier': 'phi_aria', 'rc': 0}
+[0.399991] (-) TimerEvent: {}
+[0.500348] (-) TimerEvent: {}
+[0.574543] (tp3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.600432] (-) TimerEvent: {}
+[0.663154] (tp3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.700604] (-) TimerEvent: {}
+[0.783374] (tp3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.786550] (tp3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.800969] (-) TimerEvent: {}
+[0.900518] (tp3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.901029] (-) TimerEvent: {}
+[0.903831] (tp3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.001144] (-) TimerEvent: {}
+[1.101445] (-) TimerEvent: {}
+[1.201742] (-) TimerEvent: {}
+[1.247510] (tp3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.253361] (tp3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.301915] (-) TimerEvent: {}
+[1.371499] (tp3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.371948] (tp3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.402097] (-) TimerEvent: {}
+[1.499344] (tp3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.502045] (tp3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.502233] (-) TimerEvent: {}
+[1.602451] (-) TimerEvent: {}
+[1.702723] (-) TimerEvent: {}
+[1.802993] (-) TimerEvent: {}
+[1.903285] (-) TimerEvent: {}
+[2.003575] (-) TimerEvent: {}
+[2.103925] (-) TimerEvent: {}
+[2.134117] (tp3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.153385] (tp3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.204036] (-) TimerEvent: {}
+[2.304461] (-) TimerEvent: {}
+[2.314241] (tp3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components:  Interpreter \n'}
+[2.404585] (-) TimerEvent: {}
+[2.433660] (tp3) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.504677] (-) TimerEvent: {}
+[2.605034] (-) TimerEvent: {}
+[2.659604] (tp3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.667698] (tp3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.682274] (tp3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.705146] (-) TimerEvent: {}
+[2.714722] (tp3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.747241] (tp3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.805253] (-) TimerEvent: {}
+[2.826886] (tp3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.832489] (tp3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.905413] (-) TimerEvent: {}
+[3.005768] (-) TimerEvent: {}
+[3.106150] (-) TimerEvent: {}
+[3.206544] (-) TimerEvent: {}
+[3.306928] (-) TimerEvent: {}
+[3.407246] (-) TimerEvent: {}
+[3.507602] (-) TimerEvent: {}
+[3.607940] (-) TimerEvent: {}
+[3.708269] (-) TimerEvent: {}
+[3.808619] (-) TimerEvent: {}
+[3.908944] (-) TimerEvent: {}
+[4.009285] (-) TimerEvent: {}
+[4.024557] (tp3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so   \n'}
+[4.109422] (-) TimerEvent: {}
+[4.209818] (-) TimerEvent: {}
+[4.310178] (-) TimerEvent: {}
+[4.410511] (-) TimerEvent: {}
+[4.510826] (-) TimerEvent: {}
+[4.611213] (-) TimerEvent: {}
+[4.711517] (-) TimerEvent: {}
+[4.811851] (-) TimerEvent: {}
+[4.912167] (-) TimerEvent: {}
+[5.012521] (-) TimerEvent: {}
+[5.112829] (-) TimerEvent: {}
+[5.157816] (tp3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.212882] (-) TimerEvent: {}
+[5.313191] (-) TimerEvent: {}
+[5.413504] (-) TimerEvent: {}
+[5.513809] (-) TimerEvent: {}
+[5.614198] (-) TimerEvent: {}
+[5.714596] (-) TimerEvent: {}
+[5.814945] (-) TimerEvent: {}
+[5.915311] (-) TimerEvent: {}
+[6.015617] (-) TimerEvent: {}
+[6.115898] (-) TimerEvent: {}
+[6.216241] (-) TimerEvent: {}
+[6.316575] (-) TimerEvent: {}
+[6.416898] (-) TimerEvent: {}
+[6.517216] (-) TimerEvent: {}
+[6.617554] (-) TimerEvent: {}
+[6.718109] (-) TimerEvent: {}
+[6.818466] (-) TimerEvent: {}
+[6.918802] (-) TimerEvent: {}
+[7.019103] (-) TimerEvent: {}
+[7.119476] (-) TimerEvent: {}
+[7.136104] (tp3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.152278] (tp3) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.219580] (-) TimerEvent: {}
+[7.277894] (tp3) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.280791] (tp3) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[7.319710] (-) TimerEvent: {}
+[7.395000] (tp3) StdoutLine: {'line': b'-- Looking for pthread_create - found\n'}
+[7.395722] (tp3) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.419852] (-) TimerEvent: {}
+[7.487928] (tp3) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.519972] (-) TimerEvent: {}
+[7.543290] (tp3) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[7.582261] (tp3) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[7.598008] (tp3) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[7.620046] (-) TimerEvent: {}
+[7.720449] (-) TimerEvent: {}
+[7.736664] (tp3) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[7.789704] (tp3) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[7.790995] (tp3) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[7.791201] (tp3) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.796097] (tp3) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.820548] (-) TimerEvent: {}
+[7.867787] (tp3) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.867972] (tp3) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jumombach/ros2_ws/src/tp3/include>\n'}
+[7.868022] (tp3) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.869041] (tp3) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.870852] (tp3) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.871911] (tp3) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.873351] (tp3) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.873469] (tp3) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.874486] (tp3) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.877718] (tp3) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.906750] (tp3) StdoutLine: {'line': b'-- Generating done\n'}
+[7.908494] (tp3) StdoutLine: {'line': b'-- Build files have been written to: /home/jumombach/ros2_ws/build/tp3\n'}
+[7.913653] (tp3) CommandEnded: {'returncode': 0}
+[7.914853] (tp3) JobProgress: {'identifier': 'tp3', 'progress': 'build'}
+[7.915134] (tp3) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp3', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/25238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.920728] (-) TimerEvent: {}
+[7.925806] (tp3) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[7.926838] (tp3) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[7.928751] (tp3) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target exploration\x1b[0m\n'}
+[8.020826] (-) TimerEvent: {}
+[8.106061] (tp3) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[8.111774] (tp3) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[8.113986] (tp3) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/exploration.dir/src/main.cpp.o\x1b[0m\n'}
+[8.114162] (tp3) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/exploration.dir/src/Action.cpp.o\x1b[0m\n'}
+[8.115370] (tp3) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/exploration.dir/src/Utils.cpp.o\x1b[0m\n'}
+[8.115494] (tp3) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/exploration.dir/src/Perception.cpp.o\x1b[0m\n'}
+[8.120923] (-) TimerEvent: {}
+[8.221276] (-) TimerEvent: {}
+[8.321697] (-) TimerEvent: {}
+[8.422135] (-) TimerEvent: {}
+[8.454760] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Action::followDirection(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.455083] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Action.cpp:19:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kangle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.455188] (tp3) StderrLine: {'line': b'   19 | void Action::followDirection(\x1b[01;35m\x1b[Kdouble angle\x1b[m\x1b[K)\n'}
+[8.455256] (tp3) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[8.522238] (-) TimerEvent: {}
+[8.622631] (-) TimerEvent: {}
+[8.723017] (-) TimerEvent: {}
+[8.823370] (-) TimerEvent: {}
+[8.923700] (-) TimerEvent: {}
+[9.024031] (-) TimerEvent: {}
+[9.124413] (-) TimerEvent: {}
+[9.224797] (-) TimerEvent: {}
+[9.325163] (-) TimerEvent: {}
+[9.425538] (-) TimerEvent: {}
+[9.525944] (-) TimerEvent: {}
+[9.626341] (-) TimerEvent: {}
+[9.726678] (-) TimerEvent: {}
+[9.827050] (-) TimerEvent: {}
+[9.927431] (-) TimerEvent: {}
+[10.027771] (-) TimerEvent: {}
+[10.128197] (-) TimerEvent: {}
+[10.228605] (-) TimerEvent: {}
+[10.329087] (-) TimerEvent: {}
+[10.429446] (-) TimerEvent: {}
+[10.450334] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Perception::updateCellsClassification()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.450534] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:257:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KdangerZoneWidth\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.450586] (tp3) StderrLine: {'line': b'  257 |     int \x1b[01;35m\x1b[KdangerZoneWidth\x1b[m\x1b[K = 5;\n'}
+[10.450622] (tp3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.450668] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Perception::computeHeuristic(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.450710] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:277:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KgoalX\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.450747] (tp3) StderrLine: {'line': b'  277 |     int \x1b[01;35m\x1b[KgoalX\x1b[m\x1b[K = goalIndex % numCellsX_;\n'}
+[10.450782] (tp3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.450815] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:278:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KgoalY\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.450849] (tp3) StderrLine: {'line': b'  278 |     int \x1b[01;35m\x1b[KgoalY\x1b[m\x1b[K = goalIndex / numCellsX_;\n'}
+[10.450883] (tp3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.458440] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint Perception::computeShortestPathToFrontier(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.459013] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:325:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.459253] (tp3) StderrLine: {'line': b'  325 |     int \x1b[01;35m\x1b[Krx\x1b[m\x1b[K = robotCellIndex % numCellsX_;\n'}
+[10.459330] (tp3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[10.459427] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:326:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.459508] (tp3) StderrLine: {'line': b'  326 |     int \x1b[01;35m\x1b[Kry\x1b[m\x1b[K = robotCellIndex / numCellsX_;\n'}
+[10.459615] (tp3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[10.459814] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Perception::updateGridKnownLimits()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.459896] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:389:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.459953] (tp3) StderrLine: {'line': b'  389 |     for(int x=0; \x1b[01;35m\x1b[Kx<numCellsX_\x1b[m\x1b[K; x++){\n'}
+[10.460006] (tp3) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.460060] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:390:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.460114] (tp3) StderrLine: {'line': b'  390 |         for(int y=0; \x1b[01;35m\x1b[Ky<numCellsY_\x1b[m\x1b[K; y++){\n'}
+[10.460165] (tp3) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.460219] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:394:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.460276] (tp3) StderrLine: {'line': b'  394 |                 if(\x1b[01;35m\x1b[Kx<minKnownX_\x1b[m\x1b[K) minKnownX_ = x;\n'}
+[10.460328] (tp3) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.460378] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:395:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.460432] (tp3) StderrLine: {'line': b'  395 |                 if(\x1b[01;35m\x1b[Ky<minKnownY_\x1b[m\x1b[K) minKnownY_ = y;\n'}
+[10.460483] (tp3) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.460533] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:396:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.460598] (tp3) StderrLine: {'line': b'  396 |                 if(\x1b[01;35m\x1b[Kx>maxKnownX_\x1b[m\x1b[K) maxKnownX_ = x;\n'}
+[10.460650] (tp3) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.460702] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:397:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.460755] (tp3) StderrLine: {'line': b'  397 |                 if(\x1b[01;35m\x1b[Ky>maxKnownY_\x1b[m\x1b[K) maxKnownY_ = y;\n'}
+[10.460808] (tp3) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.460862] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint Perception::clusterFrontiersAndReturnIndexOfClosestOne(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.460915] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:415:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.460976] (tp3) StderrLine: {'line': b'  415 |     for(int x=minKnownX_; \x1b[01;35m\x1b[Kx<=maxKnownX_\x1b[m\x1b[K; x++){\n'}
+[10.461040] (tp3) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.461092] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:416:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.461174] (tp3) StderrLine: {'line': b'  416 |         for(int y=minKnownY_; \x1b[01;35m\x1b[Ky<=maxKnownY_\x1b[m\x1b[K; y++){\n'}
+[10.461276] (tp3) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.461403] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:429:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.461544] (tp3) StderrLine: {'line': b'  429 |     for(int x=minKnownX_; \x1b[01;35m\x1b[Kx<=maxKnownX_\x1b[m\x1b[K; x++){\n'}
+[10.461648] (tp3) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.461744] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:430:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.461847] (tp3) StderrLine: {'line': b'  430 |         for(int y=minKnownY_; \x1b[01;35m\x1b[Ky<=maxKnownY_\x1b[m\x1b[K; y++){\n'}
+[10.461947] (tp3) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.469298] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:519:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.469505] (tp3) StderrLine: {'line': b'  519 |         for(int k=0;\x1b[01;35m\x1b[Kk<frontierCentersIndices.size()\x1b[m\x1b[K;k++){\n'}
+[10.469547] (tp3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.469583] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:531:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.469624] (tp3) StderrLine: {'line': b'  531 |         for(int k=0;\x1b[01;35m\x1b[Kk<frontierCentersIndices.size()\x1b[m\x1b[K;k++){\n'}
+[10.469658] (tp3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.482080] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* keyboardThreadFunction(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.482299] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/main.cpp:104:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.482344] (tp3) StderrLine: {'line': b'  104 | void *keyboardThreadFunction(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K)\n'}
+[10.482379] (tp3) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.486019] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* mainThreadFunction(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.486309] (tp3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp3/src/main.cpp:118:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.486372] (tp3) StderrLine: {'line': b'  118 | void *mainThreadFunction(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K)\n'}
+[10.486427] (tp3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[10.529539] (-) TimerEvent: {}
+[10.629948] (-) TimerEvent: {}
+[10.730294] (-) TimerEvent: {}
+[10.830650] (-) TimerEvent: {}
+[10.931140] (-) TimerEvent: {}
+[11.031541] (-) TimerEvent: {}
+[11.131922] (-) TimerEvent: {}
+[11.232229] (-) TimerEvent: {}
+[11.332536] (-) TimerEvent: {}
+[11.432862] (-) TimerEvent: {}
+[11.533202] (-) TimerEvent: {}
+[11.633552] (-) TimerEvent: {}
+[11.733894] (-) TimerEvent: {}
+[11.834259] (-) TimerEvent: {}
+[11.934623] (-) TimerEvent: {}
+[12.035023] (-) TimerEvent: {}
+[12.135481] (-) TimerEvent: {}
+[12.235871] (-) TimerEvent: {}
+[12.336287] (-) TimerEvent: {}
+[12.436756] (-) TimerEvent: {}
+[12.537146] (-) TimerEvent: {}
+[12.637512] (-) TimerEvent: {}
+[12.737873] (-) TimerEvent: {}
+[12.838216] (-) TimerEvent: {}
+[12.938580] (-) TimerEvent: {}
+[13.038876] (-) TimerEvent: {}
+[13.139266] (-) TimerEvent: {}
+[13.239579] (-) TimerEvent: {}
+[13.339883] (-) TimerEvent: {}
+[13.440249] (-) TimerEvent: {}
+[13.540693] (-) TimerEvent: {}
+[13.641073] (-) TimerEvent: {}
+[13.741452] (-) TimerEvent: {}
+[13.841838] (-) TimerEvent: {}
+[13.942161] (-) TimerEvent: {}
+[14.042511] (-) TimerEvent: {}
+[14.142836] (-) TimerEvent: {}
+[14.243253] (-) TimerEvent: {}
+[14.343546] (-) TimerEvent: {}
+[14.443898] (-) TimerEvent: {}
+[14.544240] (-) TimerEvent: {}
+[14.644575] (-) TimerEvent: {}
+[14.744906] (-) TimerEvent: {}
+[14.845239] (-) TimerEvent: {}
+[14.945614] (-) TimerEvent: {}
+[15.046007] (-) TimerEvent: {}
+[15.146392] (-) TimerEvent: {}
+[15.246742] (-) TimerEvent: {}
+[15.347047] (-) TimerEvent: {}
+[15.447355] (-) TimerEvent: {}
+[15.547697] (-) TimerEvent: {}
+[15.648054] (-) TimerEvent: {}
+[15.748426] (-) TimerEvent: {}
+[15.848787] (-) TimerEvent: {}
+[15.949166] (-) TimerEvent: {}
+[16.049469] (-) TimerEvent: {}
+[16.149923] (-) TimerEvent: {}
+[16.250379] (-) TimerEvent: {}
+[16.350785] (-) TimerEvent: {}
+[16.451187] (-) TimerEvent: {}
+[16.551477] (-) TimerEvent: {}
+[16.651824] (-) TimerEvent: {}
+[16.752245] (-) TimerEvent: {}
+[16.852655] (-) TimerEvent: {}
+[16.953018] (-) TimerEvent: {}
+[17.053430] (-) TimerEvent: {}
+[17.153815] (-) TimerEvent: {}
+[17.254122] (-) TimerEvent: {}
+[17.354549] (-) TimerEvent: {}
+[17.454893] (-) TimerEvent: {}
+[17.555290] (-) TimerEvent: {}
+[17.651633] (tp3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exploration\x1b[0m\n'}
+[17.655387] (-) TimerEvent: {}
+[17.755677] (-) TimerEvent: {}
+[17.856099] (-) TimerEvent: {}
+[17.956527] (-) TimerEvent: {}
+[18.057020] (-) TimerEvent: {}
+[18.157399] (-) TimerEvent: {}
+[18.257773] (-) TimerEvent: {}
+[18.358196] (-) TimerEvent: {}
+[18.458519] (-) TimerEvent: {}
+[18.476392] (tp3) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[18.478644] (tp3) StdoutLine: {'line': b'[100%] Built target exploration\n'}
+[18.478988] (tp3) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[18.482903] (tp3) CommandEnded: {'returncode': 0}
+[18.502277] (tp3) JobProgress: {'identifier': 'tp3', 'progress': 'install'}
+[18.503061] (tp3) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp3', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/25238_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp2:/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[18.512974] (tp3) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[18.515165] (tp3) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[18.519357] (tp3) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[18.533596] (tp3) StdoutLine: {'line': b'[100%] Built target exploration\n'}
+[18.533979] (tp3) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'\n"}
+[18.538598] (tp3) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[18.540271] (tp3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.541794] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/lib/tp3/exploration\n'}
+[18.545953] (tp3) StdoutLine: {'line': b'-- Set runtime path of "/home/jumombach/ros2_ws/install/tp3/lib/tp3/exploration" to ""\n'}
+[18.546101] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/launch\n'}
+[18.546275] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/launch/p3dx-rosaria.launch.py\n'}
+[18.546397] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/config\n'}
+[18.546718] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/config/p3dx.rviz\n'}
+[18.546889] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/ament_index/resource_index/package_run_dependencies/tp3\n'}
+[18.547204] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/ament_index/resource_index/parent_prefix_path/tp3\n'}
+[18.547462] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/environment/ament_prefix_path.sh\n'}
+[18.547688] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/environment/ament_prefix_path.dsv\n'}
+[18.547911] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/environment/path.sh\n'}
+[18.548027] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/environment/path.dsv\n'}
+[18.548258] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/local_setup.bash\n'}
+[18.548367] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/local_setup.sh\n'}
+[18.548564] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/local_setup.zsh\n'}
+[18.548684] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/local_setup.dsv\n'}
+[18.548779] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/package.dsv\n'}
+[18.548968] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/ament_index/resource_index/packages/tp3\n'}
+[18.549020] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/cmake/tp3Config.cmake\n'}
+[18.549057] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/cmake/tp3Config-version.cmake\n'}
+[18.549092] (tp3) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/package.xml\n'}
+[18.551092] (tp3) CommandEnded: {'returncode': 0}
+[18.558642] (-) TimerEvent: {}
+[18.578359] (tp3) JobEnded: {'identifier': 'tp3', 'rc': 0}
+[18.580119] (-) EventReactorShutdown: {}

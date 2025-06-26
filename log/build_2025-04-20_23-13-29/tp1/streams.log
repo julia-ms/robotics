@@ -1,0 +1,37 @@
+[0.020s] Invoking command in '/home/jumombach/ros2_ws/build/tp1': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+[0.080s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.086s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.094s] [35m[1mScanning dependencies of target navigation[0m
+[0.101s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.134s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.137s] [ 20%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[0.661s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[0.661s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:14:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfor[m[K’
+[0.661s]    14 |     for([01;31m[Kfor[m[K int i = 0; i < 8; i++){
+[0.661s]       |         [01;31m[K^~~[m[K
+[0.666s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:14:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[0.666s]    14 |     for(for int i = 0; [01;31m[Ki[m[K < 8; i++){
+[0.666s]       |                        [01;31m[K^[m[K
+[0.670s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:15:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kk[m[K’ was not declared in this scope
+[0.670s]    15 |    std::cout << "k " << [01;31m[Kk[m[K << ": " << lasers[k] << std::endl;
+[0.670s]       |                         [01;31m[K^[m[K
+[0.670s] 
+[0.670s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.670s]    11 |  lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.670s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.670s] 
+[0.670s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[0.670s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:22:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.670s]    22 | alls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+[0.670s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.671s] 
+[0.671s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:22:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.671s]    22 |  lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.671s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.671s] 
+[0.741s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:76: CMakeFiles/navigation.dir/src/Action.cpp.o] Error 1
+[0.741s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.741s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Error 2
+[0.741s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.741s] gmake: *** [Makefile:141: all] Error 2
+[0.744s] Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '2': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8

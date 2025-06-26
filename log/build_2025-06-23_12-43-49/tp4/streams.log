@@ -1,0 +1,46 @@
+[0.033s] Invoking command in '/home/jumombach/ros2_ws/build/tp4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp4 -- -j8 -l8
+[0.044s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+[0.049s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+[0.053s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+[0.070s] [100%] Built target localization
+[0.070s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+[0.077s] Invoked command in '/home/jumombach/ros2_ws/build/tp4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp4 -- -j8 -l8
+[0.104s] Invoking command in '/home/jumombach/ros2_ws/build/tp4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp4 --target install -- -j8 -l8
+[0.117s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+[0.120s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp4'
+[0.130s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+[0.146s] [100%] Built target localization
+[0.146s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp4'
+[0.149s] [36mInstall the project...[0m
+[0.153s] -- Install configuration: ""
+[0.154s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/lib/tp4/localization
+[0.154s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/launch
+[0.154s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/launch/p3dx-rosaria.launch.py
+[0.154s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/config
+[0.154s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/config/p3dx.rviz
+[0.154s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps
+[0.154s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/denseMap.pgm
+[0.154s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/denseMap.yaml
+[0.154s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/ambiguousMap.map
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/ambiguousMap.yaml
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/sparseMap.map
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/sparseMap.yaml
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/ambiguousMap.pgm
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/sparseMap.pgm
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/maps/denseMap.map
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/ament_index/resource_index/package_run_dependencies/tp4
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/ament_index/resource_index/parent_prefix_path/tp4
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/environment/ament_prefix_path.sh
+[0.155s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/environment/ament_prefix_path.dsv
+[0.156s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/environment/path.sh
+[0.156s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/environment/path.dsv
+[0.156s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/local_setup.bash
+[0.156s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/local_setup.sh
+[0.156s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/local_setup.zsh
+[0.157s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/local_setup.dsv
+[0.157s] -- Installing: /home/jumombach/ros2_ws/install/tp4/share/tp4/package.dsv
+[0.158s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/ament_index/resource_index/packages/tp4
+[0.158s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/cmake/tp4Config.cmake
+[0.158s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/cmake/tp4Config-version.cmake
+[0.158s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp4/share/tp4/package.xml
+[0.188s] Invoked command in '/home/jumombach/ros2_ws/build/tp4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp4 --target install -- -j8 -l8

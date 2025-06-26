@@ -1,0 +1,877 @@
+[0.000000] (-) TimerEvent: {}
+[0.000356] (phi_aria) JobQueued: {'identifier': 'phi_aria', 'dependencies': OrderedDict()}
+[0.000398] (tp1) JobQueued: {'identifier': 'tp1', 'dependencies': OrderedDict()}
+[0.000418] (tp2) JobQueued: {'identifier': 'tp2', 'dependencies': OrderedDict()}
+[0.000431] (phi_aria) JobStarted: {'identifier': 'phi_aria'}
+[0.013348] (tp1) JobStarted: {'identifier': 'tp1'}
+[0.019681] (tp2) JobStarted: {'identifier': 'tp2'}
+[0.024448] (phi_aria) JobProgress: {'identifier': 'phi_aria', 'progress': 'cmake'}
+[0.025930] (phi_aria) JobProgress: {'identifier': 'phi_aria', 'progress': 'build'}
+[0.026853] (phi_aria) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/phi_aria', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/phi_aria', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/1087_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/phi_aria'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.031601] (tp1) JobProgress: {'identifier': 'tp1', 'progress': 'cmake'}
+[0.033257] (tp1) JobProgress: {'identifier': 'tp1', 'progress': 'build'}
+[0.034477] (tp1) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp1', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/1087_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.038991] (tp2) JobProgress: {'identifier': 'tp2', 'progress': 'cmake'}
+[0.039969] (tp2) Command: {'cmd': ['/usr/local/bin/cmake', '/home/jumombach/ros2_ws/src/tp2', '-DCMAKE_INSTALL_PREFIX=/home/jumombach/ros2_ws/install/tp2'], 'cwd': '/home/jumombach/ros2_ws/build/tp2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/1087_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.098727] (-) TimerEvent: {}
+[0.146009] (tp1) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.151624] (tp1) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.156273] (phi_aria) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.188857] (tp1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigation\x1b[0m\n'}
+[0.197289] (tp1) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.198864] (-) TimerEvent: {}
+[0.214165] (tp1) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[0.216885] (tp1) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o\x1b[0m\n'}
+[0.298971] (-) TimerEvent: {}
+[0.388519] (tp2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399088] (-) TimerEvent: {}
+[0.499596] (-) TimerEvent: {}
+[0.594608] (phi_aria) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599722] (-) TimerEvent: {}
+[0.700114] (-) TimerEvent: {}
+[0.731404] (tp2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.800193] (-) TimerEvent: {}
+[0.847232] (tp2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.851674] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.851916] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:35:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksonars\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.852014] (tp1) StderrLine: {'line': b'   35 | voidObstacles(std::vector<float> lasers, \x1b[01;35m\x1b[Kstd::vector<float> sonars\x1b[m\x1b[K)\n'}
+[0.852086] (tp1) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.852156] (tp1) StderrLine: {'line': b'\n'}
+[0.853327] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.853491] (tp1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:56:94:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksonars\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.853581] (tp1) StderrLine: {'line': b'   56 | ibleFromWalls(std::vector<float> lasers, \x1b[01;35m\x1b[Kstd::vector<float> sonars\x1b[m\x1b[K)\n'}
+[0.853706] (tp1) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[0.853781] (tp1) StderrLine: {'line': b'\n'}
+[0.868889] (phi_aria) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.875669] (phi_aria) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.890737] (phi_aria) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.900336] (-) TimerEvent: {}
+[0.911672] (phi_aria) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.938894] (phi_aria) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000498] (-) TimerEvent: {}
+[1.015314] (phi_aria) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.025603] (phi_aria) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.025923] (tp1) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable navigation\x1b[0m\n'}
+[1.036385] (tp2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.038226] (tp2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.100623] (-) TimerEvent: {}
+[1.201033] (-) TimerEvent: {}
+[1.219621] (tp2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.224860] (tp2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.301192] (-) TimerEvent: {}
+[1.401727] (-) TimerEvent: {}
+[1.502215] (-) TimerEvent: {}
+[1.602692] (-) TimerEvent: {}
+[1.703357] (-) TimerEvent: {}
+[1.756088] (tp2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.759181] (tp2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.803498] (-) TimerEvent: {}
+[1.903985] (-) TimerEvent: {}
+[1.949896] (tp2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.950635] (tp2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.004111] (-) TimerEvent: {}
+[2.104465] (-) TimerEvent: {}
+[2.144860] (tp1) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[2.148597] (tp1) StdoutLine: {'line': b'[100%] Built target navigation\n'}
+[2.149233] (tp1) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[2.154802] (tp1) CommandEnded: {'returncode': 0}
+[2.160193] (tp2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.164716] (tp2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.185655] (tp1) JobProgress: {'identifier': 'tp1', 'progress': 'install'}
+[2.189346] (tp1) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp1', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/1087_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[2.203720] (tp1) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[2.204561] (-) TimerEvent: {}
+[2.206660] (tp1) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[2.212136] (tp1) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[2.236767] (tp1) StdoutLine: {'line': b'[100%] Built target navigation\n'}
+[2.237182] (tp1) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'\n"}
+[2.246494] (tp1) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.250912] (tp1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.257378] (tp1) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp1/lib/tp1/navigation\n'}
+[2.261934] (tp1) StdoutLine: {'line': b'-- Set runtime path of "/home/jumombach/ros2_ws/install/tp1/lib/tp1/navigation" to ""\n'}
+[2.262254] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/launch\n'}
+[2.262758] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/launch/p3dx-rosaria.launch.py\n'}
+[2.262916] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/config\n'}
+[2.263154] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/config/p3dx.rviz\n'}
+[2.263413] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/ament_index/resource_index/package_run_dependencies/tp1\n'}
+[2.263725] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/ament_index/resource_index/parent_prefix_path/tp1\n'}
+[2.264004] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.sh\n'}
+[2.264380] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.dsv\n'}
+[2.264558] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/path.sh\n'}
+[2.264802] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/path.dsv\n'}
+[2.264984] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.bash\n'}
+[2.265229] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.sh\n'}
+[2.265361] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.zsh\n'}
+[2.265443] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.dsv\n'}
+[2.265699] (tp1) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp1/share/tp1/package.dsv\n'}
+[2.265812] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/ament_index/resource_index/packages/tp1\n'}
+[2.266120] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/cmake/tp1Config.cmake\n'}
+[2.266235] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/cmake/tp1Config-version.cmake\n'}
+[2.266309] (tp1) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/package.xml\n'}
+[2.268516] (tp1) CommandEnded: {'returncode': 0}
+[2.304659] (-) TimerEvent: {}
+[2.330542] (tp1) JobEnded: {'identifier': 'tp1', 'rc': 0}
+[2.404807] (-) TimerEvent: {}
+[2.505218] (-) TimerEvent: {}
+[2.605676] (-) TimerEvent: {}
+[2.706149] (-) TimerEvent: {}
+[2.806630] (-) TimerEvent: {}
+[2.906987] (-) TimerEvent: {}
+[3.007447] (-) TimerEvent: {}
+[3.107867] (-) TimerEvent: {}
+[3.142759] (tp2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.148428] (tp2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.207956] (-) TimerEvent: {}
+[3.308589] (-) TimerEvent: {}
+[3.408945] (-) TimerEvent: {}
+[3.436162] (tp2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components:  Interpreter \n'}
+[3.509155] (-) TimerEvent: {}
+[3.561735] (tp2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.609281] (-) TimerEvent: {}
+[3.709676] (-) TimerEvent: {}
+[3.804019] (tp2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.809827] (-) TimerEvent: {}
+[3.815051] (tp2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.829837] (tp2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.856901] (tp2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.886897] (tp2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.909967] (-) TimerEvent: {}
+[3.955462] (tp2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.960706] (tp2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.010151] (-) TimerEvent: {}
+[4.110613] (-) TimerEvent: {}
+[4.211011] (-) TimerEvent: {}
+[4.311433] (-) TimerEvent: {}
+[4.411873] (-) TimerEvent: {}
+[4.512297] (-) TimerEvent: {}
+[4.612744] (-) TimerEvent: {}
+[4.713160] (-) TimerEvent: {}
+[4.813594] (-) TimerEvent: {}
+[4.914041] (-) TimerEvent: {}
+[5.014459] (-) TimerEvent: {}
+[5.115014] (-) TimerEvent: {}
+[5.215401] (-) TimerEvent: {}
+[5.315800] (-) TimerEvent: {}
+[5.416148] (-) TimerEvent: {}
+[5.516533] (-) TimerEvent: {}
+[5.616909] (-) TimerEvent: {}
+[5.647777] (tp2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so   \n'}
+[5.717023] (-) TimerEvent: {}
+[5.817529] (-) TimerEvent: {}
+[5.917929] (-) TimerEvent: {}
+[6.018413] (-) TimerEvent: {}
+[6.118823] (-) TimerEvent: {}
+[6.219269] (-) TimerEvent: {}
+[6.319681] (-) TimerEvent: {}
+[6.420127] (-) TimerEvent: {}
+[6.520589] (-) TimerEvent: {}
+[6.621016] (-) TimerEvent: {}
+[6.721483] (-) TimerEvent: {}
+[6.729363] (phi_aria) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.821607] (-) TimerEvent: {}
+[6.847856] (tp2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.856360] (phi_aria) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[6.921749] (-) TimerEvent: {}
+[6.925983] (phi_aria) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.968087] (phi_aria) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[7.021884] (-) TimerEvent: {}
+[7.122326] (-) TimerEvent: {}
+[7.191587] (phi_aria) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[7.205297] (phi_aria) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[7.208397] (phi_aria) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.222452] (-) TimerEvent: {}
+[7.322877] (-) TimerEvent: {}
+[7.423327] (-) TimerEvent: {}
+[7.523780] (-) TimerEvent: {}
+[7.624209] (-) TimerEvent: {}
+[7.724627] (-) TimerEvent: {}
+[7.825108] (-) TimerEvent: {}
+[7.925562] (-) TimerEvent: {}
+[8.026000] (-) TimerEvent: {}
+[8.126464] (-) TimerEvent: {}
+[8.226876] (-) TimerEvent: {}
+[8.327400] (-) TimerEvent: {}
+[8.427851] (-) TimerEvent: {}
+[8.528285] (-) TimerEvent: {}
+[8.628695] (-) TimerEvent: {}
+[8.663956] (phi_aria) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.728831] (-) TimerEvent: {}
+[8.783543] (phi_aria) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.783971] (phi_aria) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jumombach/ros2_ws/src/phi_aria/include>\n'}
+[8.784180] (phi_aria) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.785277] (phi_aria) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.787211] (phi_aria) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.787372] (phi_aria) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.788438] (phi_aria) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.792520] (phi_aria) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.828934] (-) TimerEvent: {}
+[8.863216] (phi_aria) StdoutLine: {'line': b'-- Generating done\n'}
+[8.866603] (phi_aria) StdoutLine: {'line': b'-- Build files have been written to: /home/jumombach/ros2_ws/build/phi_aria\n'}
+[8.882286] (phi_aria) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[8.887638] (phi_aria) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[8.902999] (phi_aria) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target phi_p3dx\x1b[0m\n'}
+[8.929041] (-) TimerEvent: {}
+[8.976639] (phi_aria) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[8.995877] (phi_aria) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[8.998243] (phi_aria) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/phi_p3dx.dir/src/PhiROS2Aria.cpp.o\x1b[0m\n'}
+[8.998502] (phi_aria) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/phi_p3dx.dir/src/phi_p3dx.cpp.o\x1b[0m\n'}
+[8.998616] (phi_aria) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/phi_p3dx.dir/src/Pose.cpp.o\x1b[0m\n'}
+[9.029201] (-) TimerEvent: {}
+[9.129682] (-) TimerEvent: {}
+[9.230176] (-) TimerEvent: {}
+[9.330682] (-) TimerEvent: {}
+[9.431116] (-) TimerEvent: {}
+[9.531550] (-) TimerEvent: {}
+[9.632010] (-) TimerEvent: {}
+[9.732496] (-) TimerEvent: {}
+[9.832923] (-) TimerEvent: {}
+[9.933342] (-) TimerEvent: {}
+[10.033879] (-) TimerEvent: {}
+[10.071126] (tp2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.082603] (tp2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.133995] (-) TimerEvent: {}
+[10.234454] (-) TimerEvent: {}
+[10.272111] (tp2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.273077] (tp2) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[10.334607] (-) TimerEvent: {}
+[10.435070] (-) TimerEvent: {}
+[10.444588] (tp2) StdoutLine: {'line': b'-- Looking for pthread_create - found\n'}
+[10.446131] (tp2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.510952] (tp2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.535264] (-) TimerEvent: {}
+[10.552933] (tp2) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[10.572285] (tp2) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[10.587575] (tp2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[10.635390] (-) TimerEvent: {}
+[10.695726] (tp2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.735522] (-) TimerEvent: {}
+[10.795645] (tp2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.796029] (tp2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jumombach/ros2_ws/src/tp2/include>\n'}
+[10.796130] (tp2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.796768] (tp2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.797495] (tp2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.798254] (tp2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.799147] (tp2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.799322] (tp2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.800093] (tp2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.804569] (tp2) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.835681] (-) TimerEvent: {}
+[10.840973] (tp2) StdoutLine: {'line': b'-- Generating done\n'}
+[10.843520] (tp2) StdoutLine: {'line': b'-- Build files have been written to: /home/jumombach/ros2_ws/build/tp2\n'}
+[10.853584] (tp2) CommandEnded: {'returncode': 0}
+[10.855160] (tp2) JobProgress: {'identifier': 'tp2', 'progress': 'build'}
+[10.855267] (tp2) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp2', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/1087_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[10.869520] (tp2) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[10.871517] (tp2) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[10.875135] (tp2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mapping\x1b[0m\n'}
+[10.936010] (-) TimerEvent: {}
+[10.943976] (tp2) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[10.955587] (tp2) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[10.959318] (tp2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mapping.dir/src/main.cpp.o\x1b[0m\n'}
+[10.959782] (tp2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mapping.dir/src/Perception.cpp.o\x1b[0m\n'}
+[10.960347] (tp2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mapping.dir/src/Utils.cpp.o\x1b[0m\n'}
+[11.037183] (-) TimerEvent: {}
+[11.137634] (-) TimerEvent: {}
+[11.238093] (-) TimerEvent: {}
+[11.338518] (-) TimerEvent: {}
+[11.438971] (-) TimerEvent: {}
+[11.539477] (-) TimerEvent: {}
+[11.639830] (-) TimerEvent: {}
+[11.740169] (-) TimerEvent: {}
+[11.840701] (-) TimerEvent: {}
+[11.941180] (-) TimerEvent: {}
+[12.041595] (-) TimerEvent: {}
+[12.142006] (-) TimerEvent: {}
+[12.242497] (-) TimerEvent: {}
+[12.342991] (-) TimerEvent: {}
+[12.443467] (-) TimerEvent: {}
+[12.543932] (-) TimerEvent: {}
+[12.644440] (-) TimerEvent: {}
+[12.744987] (-) TimerEvent: {}
+[12.845517] (-) TimerEvent: {}
+[12.946000] (-) TimerEvent: {}
+[13.046417] (-) TimerEvent: {}
+[13.146951] (-) TimerEvent: {}
+[13.218926] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:47\x1b[m\x1b[K,\n'}
+[13.219273] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.219482] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.219590] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArRobot.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArRobot::setDoNotSwitchBaud(bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.219692] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArRobot.h:1075:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KdoNotSwitchBaud\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.219804] (phi_aria) StderrLine: {'line': b' 1075 |   AREXPORT void setDoNotSwitchBaud(\x1b[01;35m\x1b[Kbool doNotSwitchBaud\x1b[m\x1b[K)\n'}
+[13.219886] (phi_aria) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.247039] (-) TimerEvent: {}
+[13.257612] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:47\x1b[m\x1b[K,\n'}
+[13.257866] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.257997] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.258087] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArRobot.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArRobot::setDoNotSwitchBaud(bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.258166] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArRobot.h:1075:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KdoNotSwitchBaud\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.258251] (phi_aria) StderrLine: {'line': b' 1075 |   AREXPORT void setDoNotSwitchBaud(\x1b[01;35m\x1b[Kbool doNotSwitchBaud\x1b[m\x1b[K)\n'}
+[13.258370] (phi_aria) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.301272] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/ArActionColorFollow.h:33\x1b[m\x1b[K,\n'}
+[13.301617] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/ArActionGroups.h:30\x1b[m\x1b[K,\n'}
+[13.301902] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:57\x1b[m\x1b[K,\n'}
+[13.302148] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.302342] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.302530] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::zoom(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.302721] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:118:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KzoomValue\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.302915] (phi_aria) StderrLine: {'line': b'  118 |   AREXPORT virtual bool zoom(\x1b[01;35m\x1b[Kint zoomValue\x1b[m\x1b[K) { return false; }\n'}
+[13.303104] (phi_aria) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.303299] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::zoomRel(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.303501] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:120:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KzoomValue\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.303707] (phi_aria) StderrLine: {'line': b'  120 |   AREXPORT virtual bool zoomRel(\x1b[01;35m\x1b[Kint zoomValue\x1b[m\x1b[K) { return false; }\n'}
+[13.303878] (phi_aria) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.304070] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::setGain(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.304279] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:166:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgain\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.304605] (phi_aria) StderrLine: {'line': b'  166 |   AREXPORT virtual bool setGain(\x1b[01;35m\x1b[Kdouble gain\x1b[m\x1b[K) const { return false; }\n'}
+[13.304694] (phi_aria) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[13.304771] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual double ArPTZ::getGain(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.304848] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:168:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgain\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.304927] (phi_aria) StderrLine: {'line': b'  168 |   AREXPORT virtual double getGain(\x1b[01;35m\x1b[Kdouble gain\x1b[m\x1b[K) const { return 0; }\n'}
+[13.305010] (phi_aria) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[13.305080] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::setFocus(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.305185] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:174:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfocus\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.305264] (phi_aria) StderrLine: {'line': b'  174 |   AREXPORT virtual bool setFocus(\x1b[01;35m\x1b[Kdouble focus\x1b[m\x1b[K) const { return false; }\n'}
+[13.305340] (phi_aria) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[13.305415] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual double ArPTZ::getFocus(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.305500] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:176:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfocus\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.305584] (phi_aria) StderrLine: {'line': b'  176 |   AREXPORT virtual double getFocus(\x1b[01;35m\x1b[Kdouble focus\x1b[m\x1b[K) const { return 0; }\n'}
+[13.305661] (phi_aria) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[13.305737] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::packetHandler(ArBasePacket*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.305811] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:215:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpacket\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.305905] (phi_aria) StderrLine: {'line': b'  215 |   AREXPORT virtual bool packetHandler(\x1b[01;35m\x1b[KArBasePacket *packet\x1b[m\x1b[K) { return false; }\n'}
+[13.305981] (phi_aria) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[13.327984] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:72\x1b[m\x1b[K,\n'}
+[13.328496] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.328597] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.328676] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArActionTriangleDriveTo::Data::setLinesAndVertex(std::map<int, ArLineFinderSegment*>*, ArPose)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.328759] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:191:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr ArPose& ArPose::operator=(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.328874] (phi_aria) StderrLine: {'line': b'  191 |       myVertex = \x1b[01;35m\x1b[Kvertex\x1b[m\x1b[K;\n'}
+[13.328951] (phi_aria) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.329027] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/ArDeviceConnection.h:30\x1b[m\x1b[K,\n'}
+[13.329122] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/ArSerialConnection.h:30\x1b[m\x1b[K,\n'}
+[13.329201] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:30\x1b[m\x1b[K,\n'}
+[13.329303] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.329378] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.329454] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ariaUtil.h:676:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KArPose\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KArPose::ArPose(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.329528] (phi_aria) StderrLine: {'line': b'  676 |   \x1b[01;36m\x1b[KArPose\x1b[m\x1b[K(const ArPose &pose) :\n'}
+[13.329600] (phi_aria) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.329671] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:72\x1b[m\x1b[K,\n'}
+[13.329746] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.329817] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.329894] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArActionTriangleDriveTo::Data::setFinal(ArPose)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.329974] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:194:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr ArPose& ArPose::operator=(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.330063] (phi_aria) StderrLine: {'line': b'  194 | void setFinal(ArPose final) { myFinalSet = true; myFinal = \x1b[01;35m\x1b[Kfinal\x1b[m\x1b[K; }\n'}
+[13.330137] (phi_aria) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.330218] (phi_aria) StderrLine: {'line': b'\n'}
+[13.330295] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/ArDeviceConnection.h:30\x1b[m\x1b[K,\n'}
+[13.330374] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/ArSerialConnection.h:30\x1b[m\x1b[K,\n'}
+[13.330451] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:30\x1b[m\x1b[K,\n'}
+[13.330526] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.330599] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.330673] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ariaUtil.h:676:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KArPose\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KArPose::ArPose(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.330751] (phi_aria) StderrLine: {'line': b'  676 |   \x1b[01;36m\x1b[KArPose\x1b[m\x1b[K(const ArPose &pose) :\n'}
+[13.330830] (phi_aria) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.330906] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:72\x1b[m\x1b[K,\n'}
+[13.330974] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.331051] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.331162] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArActionTriangleDriveTo::Data::setApproach(ArPose)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.331242] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:196:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr ArPose& ArPose::operator=(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.331326] (phi_aria) StderrLine: {'line': b'  196 |     { myApproachSet = true; myApproach = \x1b[01;35m\x1b[Kapproach\x1b[m\x1b[K; }\n'}
+[13.331481] (phi_aria) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.331605] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/ArDeviceConnection.h:30\x1b[m\x1b[K,\n'}
+[13.331781] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/ArSerialConnection.h:30\x1b[m\x1b[K,\n'}
+[13.331947] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:30\x1b[m\x1b[K,\n'}
+[13.332256] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.332313] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.332358] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ariaUtil.h:676:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KArPose\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KArPose::ArPose(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.332403] (phi_aria) StderrLine: {'line': b'  676 |   \x1b[01;36m\x1b[KArPose\x1b[m\x1b[K(const ArPose &pose) :\n'}
+[13.332475] (phi_aria) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.332548] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/ArActionColorFollow.h:33\x1b[m\x1b[K,\n'}
+[13.332631] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/ArActionGroups.h:30\x1b[m\x1b[K,\n'}
+[13.332696] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:57\x1b[m\x1b[K,\n'}
+[13.332761] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.332825] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.332892] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::zoom(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.332964] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:118:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KzoomValue\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.333042] (phi_aria) StderrLine: {'line': b'  118 |   AREXPORT virtual bool zoom(\x1b[01;35m\x1b[Kint zoomValue\x1b[m\x1b[K) { return false; }\n'}
+[13.333116] (phi_aria) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.333188] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::zoomRel(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.333264] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:120:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KzoomValue\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.333340] (phi_aria) StderrLine: {'line': b'  120 |   AREXPORT virtual bool zoomRel(\x1b[01;35m\x1b[Kint zoomValue\x1b[m\x1b[K) { return false; }\n'}
+[13.333416] (phi_aria) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.333492] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::setGain(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.333672] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:166:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgain\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.333782] (phi_aria) StderrLine: {'line': b'  166 |   AREXPORT virtual bool setGain(\x1b[01;35m\x1b[Kdouble gain\x1b[m\x1b[K) const { return false; }\n'}
+[13.333887] (phi_aria) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[13.333962] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual double ArPTZ::getGain(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.334036] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:168:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgain\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.334111] (phi_aria) StderrLine: {'line': b'  168 |   AREXPORT virtual double getGain(\x1b[01;35m\x1b[Kdouble gain\x1b[m\x1b[K) const { return 0; }\n'}
+[13.334185] (phi_aria) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[13.334258] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::setFocus(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.334331] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:174:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfocus\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.334406] (phi_aria) StderrLine: {'line': b'  174 |   AREXPORT virtual bool setFocus(\x1b[01;35m\x1b[Kdouble focus\x1b[m\x1b[K) const { return false; }\n'}
+[13.334652] (phi_aria) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[13.334757] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual double ArPTZ::getFocus(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.334846] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:176:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfocus\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.334936] (phi_aria) StderrLine: {'line': b'  176 |   AREXPORT virtual double getFocus(\x1b[01;35m\x1b[Kdouble focus\x1b[m\x1b[K) const { return 0; }\n'}
+[13.335021] (phi_aria) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[13.335104] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ArPTZ::packetHandler(ArBasePacket*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.335184] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArPTZ.h:215:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpacket\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.335274] (phi_aria) StderrLine: {'line': b'  215 |   AREXPORT virtual bool packetHandler(\x1b[01;35m\x1b[KArBasePacket *packet\x1b[m\x1b[K) { return false; }\n'}
+[13.335354] (phi_aria) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[13.347172] (-) TimerEvent: {}
+[13.358880] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:72\x1b[m\x1b[K,\n'}
+[13.359495] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.359608] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.359691] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArActionTriangleDriveTo::Data::setLinesAndVertex(std::map<int, ArLineFinderSegment*>*, ArPose)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.359779] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:191:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr ArPose& ArPose::operator=(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.359874] (phi_aria) StderrLine: {'line': b'  191 |       myVertex = \x1b[01;35m\x1b[Kvertex\x1b[m\x1b[K;\n'}
+[13.359947] (phi_aria) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.360024] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/ArDeviceConnection.h:30\x1b[m\x1b[K,\n'}
+[13.360099] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/ArSerialConnection.h:30\x1b[m\x1b[K,\n'}
+[13.360176] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:30\x1b[m\x1b[K,\n'}
+[13.360264] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.360335] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.360409] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ariaUtil.h:676:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KArPose\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KArPose::ArPose(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.360490] (phi_aria) StderrLine: {'line': b'  676 |   \x1b[01;36m\x1b[KArPose\x1b[m\x1b[K(const ArPose &pose) :\n'}
+[13.360565] (phi_aria) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.360644] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:72\x1b[m\x1b[K,\n'}
+[13.360729] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.360843] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.360948] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArActionTriangleDriveTo::Data::setFinal(ArPose)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.361026] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:194:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr ArPose& ArPose::operator=(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.361111] (phi_aria) StderrLine: {'line': b'  194 |     void setFinal(ArPose final) { myFinalSet = true; myFinal = \x1b[01;35m\x1b[Kfinal\x1b[m\x1b[K; }\n'}
+[13.361189] (phi_aria) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.361264] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/ArDeviceConnection.h:30\x1b[m\x1b[K,\n'}
+[13.361343] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/ArSerialConnection.h:30\x1b[m\x1b[K,\n'}
+[13.361420] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:30\x1b[m\x1b[K,\n'}
+[13.361505] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.361583] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.361669] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ariaUtil.h:676:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KArPose\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KArPose::ArPose(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.361750] (phi_aria) StderrLine: {'line': b'  676 |   \x1b[01;36m\x1b[KArPose\x1b[m\x1b[K(const ArPose &pose) :\n'}
+[13.361833] (phi_aria) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.361914] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:72\x1b[m\x1b[K,\n'}
+[13.361991] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.362063] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.362141] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArActionTriangleDriveTo::Data::setApproach(ArPose)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.362219] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:196:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr ArPose& ArPose::operator=(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.362296] (phi_aria) StderrLine: {'line': b'  196 |     { myApproachSet = true; myApproach = \x1b[01;35m\x1b[Kapproach\x1b[m\x1b[K; }\n'}
+[13.362369] (phi_aria) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[13.362443] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/ArDeviceConnection.h:30\x1b[m\x1b[K,\n'}
+[13.362516] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/ArSerialConnection.h:30\x1b[m\x1b[K,\n'}
+[13.362593] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:30\x1b[m\x1b[K,\n'}
+[13.362706] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.362784] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.362859] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ariaUtil.h:676:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KArPose\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KArPose::ArPose(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.362937] (phi_aria) StderrLine: {'line': b'  676 |   \x1b[01;36m\x1b[KArPose\x1b[m\x1b[K(const ArPose &pose) :\n'}
+[13.363020] (phi_aria) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.380976] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:87\x1b[m\x1b[K,\n'}
+[13.381231] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.381314] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.381382] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArSick.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArSick::setMinRange(unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.381449] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArSick.h:206:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KminRange\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.381533] (phi_aria) StderrLine: {'line': b'  206 |   void setMinRange(\x1b[01;35m\x1b[Kunsigned int minRange\x1b[m\x1b[K) { }\n'}
+[13.381597] (phi_aria) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[13.403199] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:87\x1b[m\x1b[K,\n'}
+[13.403469] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.403574] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.403659] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArSick.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArSick::setMinRange(unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.403745] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArSick.h:206:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KminRange\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.403835] (phi_aria) StderrLine: {'line': b'  206 |   void setMinRange(\x1b[01;35m\x1b[Kunsigned int minRange\x1b[m\x1b[K) { }\n'}
+[13.403915] (phi_aria) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[13.447350] (-) TimerEvent: {}
+[13.547829] (-) TimerEvent: {}
+[13.584459] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:116\x1b[m\x1b[K,\n'}
+[13.584662] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.584723] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.584774] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionMovementParameters.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArActionMovementParameters::enableOnceFromSector(ArMapObject*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.584825] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionMovementParameters.h:53:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KmapObject\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.584885] (phi_aria) StderrLine: {'line': b'   53 |   AREXPORT void enableOnceFromSector(\x1b[01;35m\x1b[KArMapObject *mapObject\x1b[m\x1b[K)\n'}
+[13.584933] (phi_aria) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.609853] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:116\x1b[m\x1b[K,\n'}
+[13.610233] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.610314] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.610383] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionMovementParameters.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArActionMovementParameters::enableOnceFromSector(ArMapObject*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.610452] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArActionMovementParameters.h:53:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KmapObject\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.610525] (phi_aria) StderrLine: {'line': b'   53 |   AREXPORT void enableOnceFromSector(\x1b[01;35m\x1b[KArMapObject *mapObject\x1b[m\x1b[K)\n'}
+[13.610602] (phi_aria) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.647982] (-) TimerEvent: {}
+[13.648945] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:128\x1b[m\x1b[K,\n'}
+[13.649322] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.649436] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/phi_p3dx.cpp:1\x1b[m\x1b[K:\n'}
+[13.649691] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArLaserFilter.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void* ArLaserFilter::runThread(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.649842] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArLaserFilter.h:71:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.649930] (phi_aria) StderrLine: {'line': b'   71 |   AREXPORT virtual void *runThread(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K) { return NULL; }\n'}
+[13.650009] (phi_aria) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[13.679568] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:128\x1b[m\x1b[K,\n'}
+[13.679912] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.680031] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.680129] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArLaserFilter.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void* ArLaserFilter::runThread(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.680220] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ArLaserFilter.h:71:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.680355] (phi_aria) StderrLine: {'line': b'   71 |   AREXPORT virtual void *runThread(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K) { return NULL; }\n'}
+[13.680453] (phi_aria) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[13.748115] (-) TimerEvent: {}
+[13.833140] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.833552] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPhiROS2Aria::PhiROS2Aria()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.833628] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:67:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPhiROS2Aria::publish_sonar\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.833698] (phi_aria) StderrLine: {'line': b'   67 |     bool \x1b[01;35m\x1b[Kpublish_sonar\x1b[m\x1b[K;\n'}
+[13.833760] (phi_aria) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.833829] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.833916] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:63:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool PhiROS2Aria::publish_aria_lasers\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.833993] (phi_aria) StderrLine: {'line': b'   63 |     bool \x1b[01;35m\x1b[Kpublish_aria_lasers\x1b[m\x1b[K;\n'}
+[13.834066] (phi_aria) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.834138] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:5:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.834222] (phi_aria) StderrLine: {'line': b'    5 | \x1b[01;35m\x1b[KPhiROS2Aria\x1b[m\x1b[K::PhiROS2Aria() : Node("phi_aria_p3dx"),\n'}
+[13.834296] (phi_aria) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.834373] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.834446] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:63:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPhiROS2Aria::publish_aria_lasers\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.834527] (phi_aria) StderrLine: {'line': b'   63 |     bool \x1b[01;35m\x1b[Kpublish_aria_lasers\x1b[m\x1b[K;\n'}
+[13.834602] (phi_aria) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.834678] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:50:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KArFunctorC<PhiROS2Aria> PhiROS2Aria::myPublishCB\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.834756] (phi_aria) StderrLine: {'line': b'   50 |     ArFunctorC<PhiROS2Aria> \x1b[01;35m\x1b[KmyPublishCB\x1b[m\x1b[K;\n'}
+[13.834832] (phi_aria) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.834895] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:5:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.834967] (phi_aria) StderrLine: {'line': b'    5 | \x1b[01;35m\x1b[KPhiROS2Aria\x1b[m\x1b[K::PhiROS2Aria() : Node("phi_aria_p3dx"),\n'}
+[13.835031] (phi_aria) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.848243] (-) TimerEvent: {}
+[13.880843] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PhiROS2Aria::publish()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.881266] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:249:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::list<ArSensorReading*>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.881363] (phi_aria) StderrLine: {'line': b'  249 |         for(int i=0;\x1b[01;35m\x1b[Ki<readings->size()/2\x1b[m\x1b[K;i++)\n'}
+[13.881428] (phi_aria) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.881489] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:251:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr ArPose& ArPose::operator=(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.881556] (phi_aria) StderrLine: {'line': b'  251 |         poseTaken = (*it)->getPoseTaken(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[13.881623] (phi_aria) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.881685] (phi_aria) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/Aria/include/ArDeviceConnection.h:30\x1b[m\x1b[K,\n'}
+[13.881748] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/ArSerialConnection.h:30\x1b[m\x1b[K,\n'}
+[13.881811] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/Aria/include/Aria.h:30\x1b[m\x1b[K,\n'}
+[13.881874] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/include/PhiROS2Aria.hpp:15\x1b[m\x1b[K,\n'}
+[13.881942] (phi_aria) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:1\x1b[m\x1b[K:\n'}
+[13.882011] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/Aria/include/ariaUtil.h:676:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KArPose\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KArPose::ArPose(const ArPose&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.882077] (phi_aria) StderrLine: {'line': b'  676 |   \x1b[01;36m\x1b[KArPose\x1b[m\x1b[K(const ArPose &pose) :\n'}
+[13.882142] (phi_aria) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.901725] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic bool PhiROS2Aria::simStatPacketHandler(ArRobotPacket*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.901971] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:575:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.902068] (phi_aria) StderrLine: {'line': b'  575 |         char \x1b[01;35m\x1b[Ka\x1b[m\x1b[K = packet->bufToByte(); // unused byte\n'}
+[13.902130] (phi_aria) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.902248] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:576:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.902344] (phi_aria) StderrLine: {'line': b'  576 |         char \x1b[01;35m\x1b[Kb\x1b[m\x1b[K = packet->bufToByte(); // unused byte\n'}
+[13.902432] (phi_aria) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.902515] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:580:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksimint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.902596] (phi_aria) StderrLine: {'line': b'  580 |         int \x1b[01;35m\x1b[Ksimint\x1b[m\x1b[K = packet->bufToUByte2();\n'}
+[13.902669] (phi_aria) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.902739] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:581:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krealint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.902814] (phi_aria) StderrLine: {'line': b'  581 |         int \x1b[01;35m\x1b[Krealint\x1b[m\x1b[K = packet->bufToUByte2();\n'}
+[13.902885] (phi_aria) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.903230] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:582:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klastint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.903379] (phi_aria) StderrLine: {'line': b'  582 |         int \x1b[01;35m\x1b[Klastint\x1b[m\x1b[K = packet->bufToUByte2();\n'}
+[13.903464] (phi_aria) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.903579] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:587:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KrealZ\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.903676] (phi_aria) StderrLine: {'line': b'  587 |         int \x1b[01;35m\x1b[KrealZ\x1b[m\x1b[K = packet->bufToByte4();\n'}
+[13.903759] (phi_aria) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.903848] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:620:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kuser\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.903937] (phi_aria) StderrLine: {'line': b'  620 |         unsigned char \x1b[01;35m\x1b[Kuser\x1b[m\x1b[K = packet->bufToUByte(); // unused byte\n'}
+[13.904020] (phi_aria) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.904098] (phi_aria) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/phi_aria/src/PhiROS2Aria.cpp:622:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kloaded\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.904175] (phi_aria) StderrLine: {'line': b'  622 |         unsigned char \x1b[01;35m\x1b[Kloaded\x1b[m\x1b[K = packet->bufToUByte(); // unused byte\n'}
+[13.904263] (phi_aria) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.948388] (-) TimerEvent: {}
+[14.048849] (-) TimerEvent: {}
+[14.149304] (-) TimerEvent: {}
+[14.249766] (-) TimerEvent: {}
+[14.350278] (-) TimerEvent: {}
+[14.450731] (-) TimerEvent: {}
+[14.551317] (-) TimerEvent: {}
+[14.651793] (-) TimerEvent: {}
+[14.752283] (-) TimerEvent: {}
+[14.852787] (-) TimerEvent: {}
+[14.953291] (-) TimerEvent: {}
+[14.957688] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid& Perception::updateMapLaserWithLogOdds(const std::vector<float, std::allocator<float> >&, const Pose2D&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.958247] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:68:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.958374] (tp2) StderrLine: {'line': b'   68 |     int \x1b[01;35m\x1b[Krx\x1b[m\x1b[K = robot.x*scale_;\n'}
+[14.958456] (tp2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.958539] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:69:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.958637] (tp2) StderrLine: {'line': b'   69 |     int \x1b[01;35m\x1b[Kry\x1b[m\x1b[K = robot.y*scale_;\n'}
+[14.958716] (tp2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.958779] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:72:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klambda_r\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.958851] (tp2) StderrLine: {'line': b'   72 |     float \x1b[01;35m\x1b[Klambda_r\x1b[m\x1b[K = 0.2; //  20 cm\n'}
+[14.958928] (tp2) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.959008] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:73:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klambda_phi\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.959097] (tp2) StderrLine: {'line': b'   73 |     float \x1b[01;35m\x1b[Klambda_phi\x1b[m\x1b[K = 1.0;  // 1 degree\n'}
+[14.959201] (tp2) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.959252] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:74:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KmaxRangeInt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.959298] (tp2) StderrLine: {'line': b'   74 |     int \x1b[01;35m\x1b[KmaxRangeInt\x1b[m\x1b[K = maxRange*scale_;\n'}
+[14.959342] (tp2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.959383] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:66:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.959426] (tp2) StderrLine: {'line': b'   66 | nav_msgs::msg::OccupancyGrid& Perception::updateMapLaserWithLogOdds(\x1b[01;35m\x1b[Kconst std::vector<float>& z\x1b[m\x1b[K, const Pose2D& robot)\n'}
+[14.959467] (tp2) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[14.959513] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid& Perception::updateMapLaserWithHIMM(const std::vector<float, std::allocator<float> >&, const Pose2D&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.959556] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:96:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.959599] (tp2) StderrLine: {'line': b'   96 |     int \x1b[01;35m\x1b[Krx\x1b[m\x1b[K = robot.x*scale_;\n'}
+[14.959640] (tp2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.959709] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:97:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.959759] (tp2) StderrLine: {'line': b'   97 |     int \x1b[01;35m\x1b[Kry\x1b[m\x1b[K = robot.y*scale_;\n'}
+[14.959802] (tp2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.959844] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:100:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klambda_r\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.959887] (tp2) StderrLine: {'line': b'  100 |     float \x1b[01;35m\x1b[Klambda_r\x1b[m\x1b[K = 0.2; //  20 cm\n'}
+[14.959928] (tp2) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.959968] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:101:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klambda_phi\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.960018] (tp2) StderrLine: {'line': b'  101 |     float \x1b[01;35m\x1b[Klambda_phi\x1b[m\x1b[K = 1.0;  // 1 degree\n'}
+[14.960060] (tp2) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.960101] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:102:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KmaxRangeInt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.960143] (tp2) StderrLine: {'line': b'  102 |     int \x1b[01;35m\x1b[KmaxRangeInt\x1b[m\x1b[K = maxRange*scale_;\n'}
+[14.960189] (tp2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.960228] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:94:92:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.960271] (tp2) StderrLine: {'line': b'   94 | nav_msgs::msg::OccupancyGrid& Perception::updateMapLaserWithHIMM(\x1b[01;35m\x1b[Kconst std::vector<float>& z\x1b[m\x1b[K, const Pose2D& robot)\n'}
+[14.960312] (tp2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[14.960355] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid& Perception::updateMapSonar(const std::vector<float, std::allocator<float> >&, const Pose2D&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.960395] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:123:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.960436] (tp2) StderrLine: {'line': b'  123 |     int \x1b[01;35m\x1b[Krx\x1b[m\x1b[K = robot.x*scale_;\n'}
+[14.960475] (tp2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.960514] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:124:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.960554] (tp2) StderrLine: {'line': b'  124 |     int \x1b[01;35m\x1b[Kry\x1b[m\x1b[K = robot.y*scale_;\n'}
+[14.960593] (tp2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[14.960632] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:127:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klambda_r\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.960673] (tp2) StderrLine: {'line': b'  127 |     float \x1b[01;35m\x1b[Klambda_r\x1b[m\x1b[K = 0.2; //  50 cm\n'}
+[14.960712] (tp2) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.960750] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:128:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KmaxRangeInt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.960790] (tp2) StderrLine: {'line': b'  128 |     int \x1b[01;35m\x1b[KmaxRangeInt\x1b[m\x1b[K = maxRange*scale_;\n'}
+[14.960830] (tp2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.960868] (tp2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:121:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.960910] (tp2) StderrLine: {'line': b'  121 | nav_msgs::msg::OccupancyGrid& Perception::updateMapSonar(\x1b[01;35m\x1b[Kconst std::vector<float>& z\x1b[m\x1b[K, const Pose2D& robot)\n'}
+[14.960951] (tp2) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[15.053374] (-) TimerEvent: {}
+[15.153841] (-) TimerEvent: {}
+[15.254322] (-) TimerEvent: {}
+[15.354794] (-) TimerEvent: {}
+[15.455211] (-) TimerEvent: {}
+[15.555657] (-) TimerEvent: {}
+[15.656171] (-) TimerEvent: {}
+[15.756582] (-) TimerEvent: {}
+[15.857006] (-) TimerEvent: {}
+[15.957454] (-) TimerEvent: {}
+[16.057946] (-) TimerEvent: {}
+[16.158443] (-) TimerEvent: {}
+[16.258891] (-) TimerEvent: {}
+[16.359408] (-) TimerEvent: {}
+[16.459814] (-) TimerEvent: {}
+[16.560268] (-) TimerEvent: {}
+[16.660756] (-) TimerEvent: {}
+[16.761204] (-) TimerEvent: {}
+[16.861724] (-) TimerEvent: {}
+[16.962187] (-) TimerEvent: {}
+[17.062654] (-) TimerEvent: {}
+[17.163090] (-) TimerEvent: {}
+[17.263504] (-) TimerEvent: {}
+[17.363874] (-) TimerEvent: {}
+[17.464256] (-) TimerEvent: {}
+[17.564764] (-) TimerEvent: {}
+[17.665226] (-) TimerEvent: {}
+[17.765714] (-) TimerEvent: {}
+[17.866179] (-) TimerEvent: {}
+[17.966624] (-) TimerEvent: {}
+[18.067091] (-) TimerEvent: {}
+[18.167560] (-) TimerEvent: {}
+[18.268076] (-) TimerEvent: {}
+[18.368653] (-) TimerEvent: {}
+[18.469124] (-) TimerEvent: {}
+[18.569589] (-) TimerEvent: {}
+[18.670053] (-) TimerEvent: {}
+[18.770472] (-) TimerEvent: {}
+[18.870896] (-) TimerEvent: {}
+[18.971329] (-) TimerEvent: {}
+[19.071758] (-) TimerEvent: {}
+[19.172238] (-) TimerEvent: {}
+[19.272635] (-) TimerEvent: {}
+[19.373045] (-) TimerEvent: {}
+[19.473597] (-) TimerEvent: {}
+[19.574022] (-) TimerEvent: {}
+[19.674514] (-) TimerEvent: {}
+[19.774935] (-) TimerEvent: {}
+[19.875336] (-) TimerEvent: {}
+[19.975733] (-) TimerEvent: {}
+[20.076137] (-) TimerEvent: {}
+[20.176551] (-) TimerEvent: {}
+[20.276966] (-) TimerEvent: {}
+[20.377364] (-) TimerEvent: {}
+[20.477819] (-) TimerEvent: {}
+[20.578174] (-) TimerEvent: {}
+[20.678520] (-) TimerEvent: {}
+[20.778921] (-) TimerEvent: {}
+[20.879410] (-) TimerEvent: {}
+[20.979912] (-) TimerEvent: {}
+[21.080390] (-) TimerEvent: {}
+[21.180853] (-) TimerEvent: {}
+[21.281296] (-) TimerEvent: {}
+[21.381786] (-) TimerEvent: {}
+[21.482176] (-) TimerEvent: {}
+[21.582547] (-) TimerEvent: {}
+[21.683008] (-) TimerEvent: {}
+[21.783477] (-) TimerEvent: {}
+[21.883924] (-) TimerEvent: {}
+[21.984354] (-) TimerEvent: {}
+[22.084781] (-) TimerEvent: {}
+[22.185220] (-) TimerEvent: {}
+[22.285657] (-) TimerEvent: {}
+[22.386009] (-) TimerEvent: {}
+[22.486443] (-) TimerEvent: {}
+[22.586839] (-) TimerEvent: {}
+[22.687208] (-) TimerEvent: {}
+[22.787652] (-) TimerEvent: {}
+[22.888141] (-) TimerEvent: {}
+[22.988693] (-) TimerEvent: {}
+[23.089224] (-) TimerEvent: {}
+[23.153212] (phi_aria) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable phi_p3dx\x1b[0m\n'}
+[23.189374] (-) TimerEvent: {}
+[23.289796] (-) TimerEvent: {}
+[23.390244] (-) TimerEvent: {}
+[23.490825] (-) TimerEvent: {}
+[23.591310] (-) TimerEvent: {}
+[23.691770] (-) TimerEvent: {}
+[23.792169] (-) TimerEvent: {}
+[23.892704] (-) TimerEvent: {}
+[23.993251] (-) TimerEvent: {}
+[24.093681] (-) TimerEvent: {}
+[24.194118] (-) TimerEvent: {}
+[24.294559] (-) TimerEvent: {}
+[24.308721] (phi_aria) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[24.311597] (phi_aria) StdoutLine: {'line': b'[100%] Built target phi_p3dx\n'}
+[24.312027] (phi_aria) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[24.316868] (phi_aria) CommandEnded: {'returncode': 0}
+[24.349475] (phi_aria) JobProgress: {'identifier': 'phi_aria', 'progress': 'install'}
+[24.350332] (phi_aria) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/phi_aria', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/phi_aria', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/1087_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/phi_aria'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[24.366025] (phi_aria) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[24.373854] (phi_aria) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[24.381702] (phi_aria) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[24.394702] (-) TimerEvent: {}
+[24.405317] (phi_aria) StdoutLine: {'line': b'[100%] Built target phi_p3dx\n'}
+[24.405716] (phi_aria) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/phi_aria'\n"}
+[24.412088] (phi_aria) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[24.415079] (phi_aria) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.416812] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/lib/phi_aria/phi_p3dx\n'}
+[24.420257] (phi_aria) StdoutLine: {'line': b'-- Set runtime path of "/home/jumombach/ros2_ws/install/phi_aria/lib/phi_aria/phi_p3dx" to ""\n'}
+[24.420489] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description\n'}
+[24.420780] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf\n'}
+[24.420982] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/pioneer3dx_wheel.xacro\n'}
+[24.421572] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/sick_lms100.urdf.xacro\n'}
+[24.422146] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/common.xacro\n'}
+[24.422669] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/urdf/p3dx.urdf.xacro\n'}
+[24.423348] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes\n'}
+[24.423677] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/top.stl\n'}
+[24.424654] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/left_hubcap.stl\n'}
+[24.425065] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_swivel.stl\n'}
+[24.425543] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_wheel.stl\n'}
+[24.425891] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/chassis.stl\n'}
+[24.426291] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/right_wheel.stl\n'}
+[24.427111] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/right_hubcap.stl\n'}
+[24.427416] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/front_sonar.stl\n'}
+[24.427825] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/caster_hubcap.stl\n'}
+[24.428048] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/left_wheel.stl\n'}
+[24.428648] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/front_rim.stl\n'}
+[24.433529] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/back_rim.stl\n'}
+[24.438951] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/p3dx_meshes/back_sonar.stl\n'}
+[24.439601] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/sensors_meshes\n'}
+[24.439895] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/description/sensors_meshes/sick_lms100.stl\n'}
+[24.444040] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/ament_index/resource_index/package_run_dependencies/phi_aria\n'}
+[24.444399] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/ament_index/resource_index/parent_prefix_path/phi_aria\n'}
+[24.444637] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/environment/ament_prefix_path.sh\n'}
+[24.444831] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/environment/ament_prefix_path.dsv\n'}
+[24.445087] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/environment/path.sh\n'}
+[24.445383] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/environment/path.dsv\n'}
+[24.445497] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/local_setup.bash\n'}
+[24.445578] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/local_setup.sh\n'}
+[24.445680] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/local_setup.zsh\n'}
+[24.445834] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/local_setup.dsv\n'}
+[24.445936] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.dsv\n'}
+[24.446227] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/ament_index/resource_index/packages/phi_aria\n'}
+[24.446751] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/cmake/phi_ariaConfig.cmake\n'}
+[24.446909] (phi_aria) StdoutLine: {'line': b'-- Up-to-date: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/cmake/phi_ariaConfig-version.cmake\n'}
+[24.447029] (phi_aria) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.xml\n'}
+[24.449196] (phi_aria) CommandEnded: {'returncode': 0}
+[24.489231] (phi_aria) JobEnded: {'identifier': 'phi_aria', 'rc': 0}
+[24.494845] (-) TimerEvent: {}
+[24.595235] (-) TimerEvent: {}
+[24.695713] (-) TimerEvent: {}
+[24.796172] (-) TimerEvent: {}
+[24.896645] (-) TimerEvent: {}
+[24.997071] (-) TimerEvent: {}
+[25.097477] (-) TimerEvent: {}
+[25.197847] (-) TimerEvent: {}
+[25.298183] (-) TimerEvent: {}
+[25.398625] (-) TimerEvent: {}
+[25.499020] (-) TimerEvent: {}
+[25.599432] (-) TimerEvent: {}
+[25.699924] (-) TimerEvent: {}
+[25.800267] (-) TimerEvent: {}
+[25.900662] (-) TimerEvent: {}
+[26.001017] (-) TimerEvent: {}
+[26.101396] (-) TimerEvent: {}
+[26.201794] (-) TimerEvent: {}
+[26.302165] (-) TimerEvent: {}
+[26.402563] (-) TimerEvent: {}
+[26.502890] (-) TimerEvent: {}
+[26.603299] (-) TimerEvent: {}
+[26.703750] (-) TimerEvent: {}
+[26.804130] (-) TimerEvent: {}
+[26.904513] (-) TimerEvent: {}
+[27.004869] (-) TimerEvent: {}
+[27.105276] (-) TimerEvent: {}
+[27.205662] (-) TimerEvent: {}
+[27.306131] (-) TimerEvent: {}
+[27.406560] (-) TimerEvent: {}
+[27.506920] (-) TimerEvent: {}
+[27.607314] (-) TimerEvent: {}
+[27.707733] (-) TimerEvent: {}
+[27.808149] (-) TimerEvent: {}
+[27.908669] (-) TimerEvent: {}
+[28.009189] (-) TimerEvent: {}
+[28.109538] (-) TimerEvent: {}
+[28.210039] (-) TimerEvent: {}
+[28.264554] (tp2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mapping\x1b[0m\n'}
+[28.310183] (-) TimerEvent: {}
+[28.410545] (-) TimerEvent: {}
+[28.510898] (-) TimerEvent: {}
+[28.611295] (-) TimerEvent: {}
+[28.711625] (-) TimerEvent: {}
+[28.811980] (-) TimerEvent: {}
+[28.912528] (-) TimerEvent: {}
+[29.012931] (-) TimerEvent: {}
+[29.113429] (-) TimerEvent: {}
+[29.193041] (tp2) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[29.195763] (tp2) StdoutLine: {'line': b'[100%] Built target mapping\n'}
+[29.196108] (tp2) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[29.200239] (tp2) CommandEnded: {'returncode': 0}
+[29.213526] (-) TimerEvent: {}
+[29.221979] (tp2) JobProgress: {'identifier': 'tp2', 'progress': 'install'}
+[29.223136] (tp2) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jumombach/ros2_ws/build/tp2', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/jumombach/ros2_ws/build/tp2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jumombach'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/Aria/lib:/usr/local/Aria/lib'), ('HOME', '/home/jumombach'), ('OLDPWD', '/home/jumombach'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jumombach/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jumombach'), ('NAME', 'LAPTOP-AP3GIVJM'), ('WSL_INTEROP', '/run/WSL/1087_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jumombach/.local/bin:/opt/ros/humble/bin:/home/jumombach/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSSAMCLI/bin/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/julia/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/julia/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/Scripts/:/mnt/c/Users/julia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/LocalCache/local-packages/Python312/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jumombach/ros2_ws/build/tp2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jumombach/ros2_ws/install/tp1:/home/jumombach/ros2_ws/install/phi_aria:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[29.234483] (tp2) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[29.237874] (tp2) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[29.243088] (tp2) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[29.263694] (tp2) StdoutLine: {'line': b'[100%] Built target mapping\n'}
+[29.264084] (tp2) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'\n"}
+[29.269724] (tp2) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[29.272404] (tp2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.273052] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/lib/tp2/mapping\n'}
+[29.278897] (tp2) StdoutLine: {'line': b'-- Set runtime path of "/home/jumombach/ros2_ws/install/tp2/lib/tp2/mapping" to ""\n'}
+[29.279660] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/launch\n'}
+[29.279990] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/launch/p3dx-rosaria.launch.py\n'}
+[29.282119] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/config\n'}
+[29.282486] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/config/p3dx.rviz\n'}
+[29.283378] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/package_run_dependencies/tp2\n'}
+[29.283769] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/parent_prefix_path/tp2\n'}
+[29.284174] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/ament_prefix_path.sh\n'}
+[29.284279] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/ament_prefix_path.dsv\n'}
+[29.284453] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/path.sh\n'}
+[29.284561] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/path.dsv\n'}
+[29.285105] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.bash\n'}
+[29.285202] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.sh\n'}
+[29.285267] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.zsh\n'}
+[29.285495] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.dsv\n'}
+[29.285602] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/package.dsv\n'}
+[29.285669] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/packages/tp2\n'}
+[29.285881] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/cmake/tp2Config.cmake\n'}
+[29.285982] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/cmake/tp2Config-version.cmake\n'}
+[29.286146] (tp2) StdoutLine: {'line': b'-- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/package.xml\n'}
+[29.288228] (tp2) CommandEnded: {'returncode': 0}
+[29.313687] (-) TimerEvent: {}
+[29.331172] (tp2) JobEnded: {'identifier': 'tp2', 'rc': 0}
+[29.333244] (-) EventReactorShutdown: {}

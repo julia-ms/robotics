@@ -1,0 +1,72 @@
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::OccupancyGrid& Perception::updateMapLaserWithLogOdds(const std::vector<float, std::allocator<float> >&, const Pose2D&)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:94:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K<[m[K’ token
+   94 | for(int j = 0, j[01;31m[K [m[K[32m[K<[m[K 20; j++){
+      |                 [01;31m[K^[m[K[32m[K~[m[K
+      |                 [32m[K;[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:94:18:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+   94 | for(int j = 0, j [01;31m[K<[m[K 20; j++){
+      |                  [01;31m[K^[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:68:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   68 |     int [01;35m[Krx[m[K = robot.x*scale_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:69:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   69 |     int [01;35m[Kry[m[K = robot.y*scale_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:72:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klambda_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   72 |     float [01;35m[Klambda_r[m[K = 0.2; //  20 cm
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:73:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klambda_phi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   73 |     float [01;35m[Klambda_phi[m[K = 1.0;  // 1 degree
+      |           [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:74:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxRangeInt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   74 |     int [01;35m[KmaxRangeInt[m[K = maxRange*scale_;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:89:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klo_occ[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   89 |     float [01;35m[Klo_occ[m[K = getLogOddsFromLikelihood(0.7);   // obstáculo
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:90:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klo_free[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   90 |     float [01;35m[Klo_free[m[K = getLogOddsFromLikelihood(0.4);  // livre
+      |           [01;35m[K^~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:66:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   66 | msg::OccupancyGrid& Perception::updateMapLaserWithLogOdds([01;35m[Kconst std::vector<float>& z[m[K, const Pose2D& robot)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::OccupancyGrid& Perception::updateMapLaserWithHIMM(const std::vector<float, std::allocator<float> >&, const Pose2D&)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:106:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  106 |     int [01;35m[Krx[m[K = robot.x*scale_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:107:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  107 |     int [01;35m[Kry[m[K = robot.y*scale_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:110:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klambda_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  110 |     float [01;35m[Klambda_r[m[K = 0.2; //  20 cm
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:111:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klambda_phi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  111 |     float [01;35m[Klambda_phi[m[K = 1.0;  // 1 degree
+      |           [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:112:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxRangeInt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  112 |     int [01;35m[KmaxRangeInt[m[K = maxRange*scale_;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:104:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  104 | s::msg::OccupancyGrid& Perception::updateMapLaserWithHIMM([01;35m[Kconst std::vector<float>& z[m[K, const Pose2D& robot)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::OccupancyGrid& Perception::updateMapSonar(const std::vector<float, std::allocator<float> >&, const Pose2D&)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:133:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  133 |     int [01;35m[Krx[m[K = robot.x*scale_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:134:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  134 |     int [01;35m[Kry[m[K = robot.y*scale_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:137:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klambda_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  137 |     float [01;35m[Klambda_r[m[K = 0.2; //  50 cm
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:138:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxRangeInt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  138 |     int [01;35m[KmaxRangeInt[m[K = maxRange*scale_;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:131:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  131 | nav_msgs::msg::OccupancyGrid& Perception::updateMapSonar([01;35m[Kconst std::vector<float>& z[m[K, const Pose2D& robot)
+      |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+gmake[2]: *** [CMakeFiles/mapping.dir/build.make:76: CMakeFiles/mapping.dir/src/Perception.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mapping.dir/all] Error 2
+gmake: *** [Makefile:141: all] Error 2

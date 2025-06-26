@@ -1,0 +1,56 @@
+[0.021s] Invoking command in '/home/jumombach/ros2_ws/build/tp1': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+[0.032s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.034s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.037s] [35m[1mScanning dependencies of target navigation[0m
+[0.040s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.049s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.052s] [ 20%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[0.389s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[0.389s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.389s]    11 |  lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.389s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.389s] 
+[0.389s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[0.389s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:27:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.389s]    27 | alls([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+[0.389s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.389s] 
+[0.389s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:27:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.389s]    27 |  lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.389s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.390s] 
+[0.482s] [ 40%] [32m[1mLinking CXX executable navigation[0m
+[1.625s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[1.629s] [100%] Built target navigation
+[1.629s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[1.638s] Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '0': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+[1.662s] Invoking command in '/home/jumombach/ros2_ws/build/tp1': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 --target install -- -j8 -l8
+[1.673s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[1.676s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[1.680s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[1.695s] [100%] Built target navigation
+[1.695s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[1.700s] [36mInstall the project...[0m
+[1.702s] -- Install configuration: ""
+[1.702s] -- Installing: /home/jumombach/ros2_ws/install/tp1/lib/tp1/navigation
+[1.710s] -- Set runtime path of "/home/jumombach/ros2_ws/install/tp1/lib/tp1/navigation" to ""
+[1.710s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/launch
+[1.711s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/launch/p3dx-rosaria.launch.py
+[1.711s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/config
+[1.711s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/config/p3dx.rviz
+[1.712s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/ament_index/resource_index/package_run_dependencies/tp1
+[1.712s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/ament_index/resource_index/parent_prefix_path/tp1
+[1.712s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.sh
+[1.712s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/ament_prefix_path.dsv
+[1.713s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/path.sh
+[1.713s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/environment/path.dsv
+[1.713s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.bash
+[1.713s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.sh
+[1.713s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.zsh
+[1.714s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/local_setup.dsv
+[1.714s] -- Installing: /home/jumombach/ros2_ws/install/tp1/share/tp1/package.dsv
+[1.715s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/ament_index/resource_index/packages/tp1
+[1.716s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/cmake/tp1Config.cmake
+[1.716s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/cmake/tp1Config-version.cmake
+[1.717s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp1/share/tp1/package.xml
+[1.718s] Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '0': /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 --target install -- -j8 -l8

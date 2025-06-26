@@ -1,0 +1,6 @@
+Invoking command in '/home/jumombach/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/jumombach/ros2_ws/src/tp1 -DCMAKE_INSTALL_PREFIX=/home/jumombach/ros2_ws/install/tp1
+Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/jumombach/ros2_ws/src/tp1 -DCMAKE_INSTALL_PREFIX=/home/jumombach/ros2_ws/install/tp1
+Invoking command in '/home/jumombach/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+Invoking command in '/home/jumombach/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 --target install -- -j8 -l8
+Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 --target install -- -j8 -l8

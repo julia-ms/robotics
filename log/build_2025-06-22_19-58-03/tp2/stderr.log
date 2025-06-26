@@ -1,0 +1,169 @@
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::OccupancyGrid& Perception::updateMapSonar(const std::vector<float, std::allocator<float> >&, const Pose2D&)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:269:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float, std::allocator<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  269 |             if (i < 0 || [01;35m[Ki >= gridSonar_.size()[m[K) continue;
+      |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:277:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmax(__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type, int)[m[K’
+  277 |                     gridSonar_[i] = [01;31m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                     [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Utils.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:254:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)[m[K’
+  254 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:254:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:277:45:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+  277 |                     gridSonar_[i] = [01;36m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Utils.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:300:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)[m[K’
+  300 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:300:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:277:45:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+  277 |                     gridSonar_[i] = [01;36m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:6[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3461:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)[m[K’
+ 3461 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3461:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:277:45:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+  277 |                     gridSonar_[i] = [01;36m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:6[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3467:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)[m[K’
+ 3467 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3467:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:277:45:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+  277 |                     gridSonar_[i] = [01;36m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:281:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmin(__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type, int)[m[K’
+  281 |                     gridSonar_[i] = [01;31m[Kstd::min(gridSonar_[i] + 3, 15)[m[K;
+      |                                     [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Utils.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)[m[K’
+  230 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:281:45:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+  281 |                     gridSonar_[i] = [01;36m[Kstd::min(gridSonar_[i] + 3, 15)[m[K;
+      |                                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Utils.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)[m[K’
+  278 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:281:45:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+  281 |                     gridSonar_[i] = [01;36m[Kstd::min(gridSonar_[i] + 3, 15)[m[K;
+      |                                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:6[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3449:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::min(std::initializer_list<_Tp>)[m[K’
+ 3449 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3449:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:281:45:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+  281 |                     gridSonar_[i] = [01;36m[Kstd::min(gridSonar_[i] + 3, 15)[m[K;
+      |                                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:6[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3455:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::min(std::initializer_list<_Tp>, _Compare)[m[K’
+ 3455 |     [01;36m[Kmin[m[K(initializer_list<_Tp> __l, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3455:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:281:45:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+  281 |                     gridSonar_[i] = [01;36m[Kstd::min(gridSonar_[i] + 3, 15)[m[K;
+      |                                     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:290:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmax(__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type, int)[m[K’
+  290 |                 gridSonar_[i] = [01;31m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                 [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Utils.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:254:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)[m[K’
+  254 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:254:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:290:41:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+  290 |                 gridSonar_[i] = [01;36m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                 [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Utils.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:300:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)[m[K’
+  300 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:300:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:290:41:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+  290 |                 gridSonar_[i] = [01;36m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                 [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:6[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3461:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)[m[K’
+ 3461 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3461:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:290:41:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+  290 |                 gridSonar_[i] = [01;36m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                 [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/include/Perception.h:6[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3467:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)[m[K’
+ 3467 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3467:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:290:41:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat[m[K’
+  290 |                 gridSonar_[i] = [01;36m[Kstd::max(gridSonar_[i] - 1, 0)[m[K;
+      |                                 [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:225:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  225 |     int [01;35m[Krx[m[K = robot.x*scale_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:226:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  226 |     int [01;35m[Kry[m[K = robot.y*scale_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp2/src/Perception.cpp:230:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmaxRangeInt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  230 |     int [01;35m[KmaxRangeInt[m[K = maxRange*scale_;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mapping.dir/build.make:76: CMakeFiles/mapping.dir/src/Perception.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mapping.dir/all] Error 2
+gmake: *** [Makefile:141: all] Error 2

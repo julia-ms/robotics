@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jumombach/ros2_ws/src/tp3/include/Action.h
+vector
+-
+
+/home/jumombach/ros2_ws/src/tp3/include/Utils.h
+cmath
+-
+iostream
+-
+
+/home/jumombach/ros2_ws/src/tp3/src/Action.cpp
+Action.h
+/home/jumombach/ros2_ws/src/tp3/src/Action.h
+Utils.h
+/home/jumombach/ros2_ws/src/tp3/src/Utils.h
+

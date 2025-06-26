@@ -1,0 +1,8 @@
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp3'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp3'
+[35m[1mScanning dependencies of target exploration[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp3'
+[ 20%] [32mBuilding CXX object CMakeFiles/exploration.dir/src/Perception.cpp.o[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'

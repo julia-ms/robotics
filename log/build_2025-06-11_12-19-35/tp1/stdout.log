@@ -1,0 +1,9 @@
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[35m[1mScanning dependencies of target navigation[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[ 40%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/main.cpp.o[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'

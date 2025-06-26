@@ -1,0 +1,61 @@
+[0.017s] Invoking command in '/home/jumombach/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+[0.117s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.121s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.144s] [35m[1mScanning dependencies of target navigation[0m
+[0.150s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.159s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[0.161s] [ 20%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[0.562s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[0.562s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:17:8:[m[K [01;31m[Kerror: [m[K‘[01m[KobstaclesLeft[m[K’ was not declared in this scope
+[0.562s]    17 |     if([01;31m[KobstaclesLeft[m[K){
+[0.562s]       |        [01;31m[K^~~~~~~~~~~~~[m[K
+[0.565s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:20:14:[m[K [01;31m[Kerror: [m[K‘[01m[KobstaclesRight[m[K’ was not declared in this scope
+[0.565s]    20 |     }else if([01;31m[KobstaclesRight[m[K){
+[0.565s]       |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.567s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:23:14:[m[K [01;31m[Kerror: [m[K‘[01m[KobstaclesFront[m[K’ was not declared in this scope
+[0.567s]    23 |     }else if([01;31m[KobstaclesFront[m[K){
+[0.567s]       |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.568s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.568s]    11 | void Action::avoidObstacles([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+[0.568s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.568s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.568s]    11 | void Action::avoidObstacles(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.568s]       |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.569s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[0.569s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:32:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.569s]    32 | tion::keepAsFarthestAsPossibleFromWalls(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+[0.569s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[0.569s] 
+[0.572s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[Kbool obstaclesFront()[m[K’:
+[0.573s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:161:8:[m[K [01;31m[Kerror: [m[K‘[01m[Klasers[m[K’ was not declared in this scope
+[0.573s]   161 |     if([01;31m[Klasers[m[K[90] < 2.0 || lasers[91] < 2.0 || lasers[89] < 2.0){
+[0.573s]       |        [01;31m[K^~~~~~[m[K
+[0.574s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:162:9:[m[K [01;31m[Kerror: [m[K‘[01m[KlinVel[m[K’ was not declared in this scope
+[0.574s]   162 |         [01;31m[KlinVel[m[K= 0.0;
+[0.574s]       |         [01;31m[K^~~~~~[m[K
+[0.575s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:163:9:[m[K [01;31m[Kerror: [m[K‘[01m[KangVel[m[K’ was not declared in this scope
+[0.575s]   163 |         [01;31m[KangVel[m[K= 0.3;
+[0.576s]       |         [01;31m[K^~~~~~[m[K
+[0.576s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:165:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[0.576s]   165 | [01;35m[K}[m[K
+[0.576s]       | [01;35m[K^[m[K
+[0.577s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[Kbool obstaclesLeft()[m[K’:
+[0.577s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:169:12:[m[K [01;31m[Kerror: [m[K‘[01m[Klasers[m[K’ was not declared in this scope
+[0.577s]   169 |         if([01;31m[Klasers[m[K[i] < 1.5){
+[0.577s]       |            [01;31m[K^~~~~~[m[K
+[0.578s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[Kbool obstaclesRight()[m[K’:
+[0.578s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:180:12:[m[K [01;31m[Kerror: [m[K‘[01m[Klasers[m[K’ was not declared in this scope
+[0.578s]   180 |         if([01;31m[Klasers[m[K[i] < 1.5){
+[0.578s]       |            [01;31m[K^~~~~~[m[K
+[0.579s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:182:9:[m[K [01;31m[Kerror: [m[K‘[01m[KlinVel[m[K’ was not declared in this scope
+[0.579s]   182 |         [01;31m[KlinVel[m[K= 0.0;
+[0.579s]       |         [01;31m[K^~~~~~[m[K
+[0.580s] [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:183:9:[m[K [01;31m[Kerror: [m[K‘[01m[KangVel[m[K’ was not declared in this scope
+[0.580s]   183 |         [01;31m[KangVel[m[K= 0.3;
+[0.580s]       |         [01;31m[K^~~~~~[m[K
+[0.628s] gmake[2]: *** [CMakeFiles/navigation.dir/build.make:76: CMakeFiles/navigation.dir/src/Action.cpp.o] Error 1
+[0.628s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Error 2
+[0.629s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.630s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+[0.630s] gmake: *** [Makefile:141: all] Error 2
+[0.631s] Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8

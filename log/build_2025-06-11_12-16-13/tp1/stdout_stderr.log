@@ -1,0 +1,59 @@
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[35m[1mScanning dependencies of target navigation[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[ 20%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:17:8:[m[K [01;31m[Kerror: [m[K‘[01m[KobstaclesLeft[m[K’ was not declared in this scope
+   17 |     if([01;31m[KobstaclesLeft[m[K){
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:20:14:[m[K [01;31m[Kerror: [m[K‘[01m[KobstaclesRight[m[K’ was not declared in this scope
+   20 |     }else if([01;31m[KobstaclesRight[m[K){
+      |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:23:14:[m[K [01;31m[Kerror: [m[K‘[01m[KobstaclesFront[m[K’ was not declared in this scope
+   23 |     }else if([01;31m[KobstaclesFront[m[K){
+      |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 | void Action::avoidObstacles([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 | void Action::avoidObstacles(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:32:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 | tion::keepAsFarthestAsPossibleFromWalls(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[Kbool obstaclesFront()[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:161:8:[m[K [01;31m[Kerror: [m[K‘[01m[Klasers[m[K’ was not declared in this scope
+  161 |     if([01;31m[Klasers[m[K[90] < 2.0 || lasers[91] < 2.0 || lasers[89] < 2.0){
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:162:9:[m[K [01;31m[Kerror: [m[K‘[01m[KlinVel[m[K’ was not declared in this scope
+  162 |         [01;31m[KlinVel[m[K= 0.0;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:163:9:[m[K [01;31m[Kerror: [m[K‘[01m[KangVel[m[K’ was not declared in this scope
+  163 |         [01;31m[KangVel[m[K= 0.3;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:165:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  165 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[Kbool obstaclesLeft()[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:169:12:[m[K [01;31m[Kerror: [m[K‘[01m[Klasers[m[K’ was not declared in this scope
+  169 |         if([01;31m[Klasers[m[K[i] < 1.5){
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In function ‘[01m[Kbool obstaclesRight()[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:180:12:[m[K [01;31m[Kerror: [m[K‘[01m[Klasers[m[K’ was not declared in this scope
+  180 |         if([01;31m[Klasers[m[K[i] < 1.5){
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:182:9:[m[K [01;31m[Kerror: [m[K‘[01m[KlinVel[m[K’ was not declared in this scope
+  182 |         [01;31m[KlinVel[m[K= 0.0;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:183:9:[m[K [01;31m[Kerror: [m[K‘[01m[KangVel[m[K’ was not declared in this scope
+  183 |         [01;31m[KangVel[m[K= 0.3;
+      |         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:76: CMakeFiles/navigation.dir/src/Action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Error 2
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+gmake: *** [Makefile:141: all] Error 2

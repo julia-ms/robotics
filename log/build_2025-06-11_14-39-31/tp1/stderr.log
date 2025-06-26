@@ -1,0 +1,58 @@
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:35:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   35 | void Action::avoidObstacles(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:64:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmin(__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type&, int)[m[K’
+   64 |     float left_distance = [01;31m[Kstd::min(lasers[0], 2)[m[K;
+      |                           [01;31m[K~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:60[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp1/include/Action.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)[m[K’
+  230 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:64:35:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+   64 |     float left_distance = [01;36m[Kstd::min(lasers[0], 2)[m[K;
+      |                           [01;36m[K~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:60[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp1/include/Action.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)[m[K’
+  278 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:64:35:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+   64 |     float left_distance = [01;36m[Kstd::min(lasers[0], 2)[m[K;
+      |                           [01;36m[K~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:65:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmin(__gnu_cxx::__alloc_traits<std::allocator<float>, float>::value_type&, int)[m[K’
+   65 |     float right_distance = [01;31m[Kstd::min(lasers[180], 2)[m[K;
+      |                            [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:60[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp1/include/Action.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)[m[K’
+  230 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:230:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:65:36:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+   65 |     float right_distance = [01;36m[Kstd::min(lasers[180], 2)[m[K;
+      |                            [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:60[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp1/include/Action.h:4[m[K,
+                 from [01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::min(const _Tp&, const _Tp&, _Compare)[m[K’
+  278 |     [01;36m[Kmin[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:278:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:65:36:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kfloat[m[K’ and ‘[01m[Kint[m[K’)
+   65 |     float right_distance = [01;36m[Kstd::min(lasers[180], 2)[m[K;
+      |                            [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:56:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 | tion::keepAsFarthestAsPossibleFromWalls(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:76: CMakeFiles/navigation.dir/src/Action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Error 2
+gmake: *** [Makefile:141: all] Error 2

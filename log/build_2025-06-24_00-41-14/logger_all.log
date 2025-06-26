@@ -1,0 +1,409 @@
+[0.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.130s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4ea192dff0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4ea192da80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4ea192da80>>, mixin_verb=('build',))
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.234s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jumombach/ros2_ws'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/phi_aria) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/phi_aria) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/phi_aria) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/phi_aria) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/phi_aria) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/phi_aria) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/phi_aria) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/phi_aria) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/phi_aria) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/phi_aria' with type 'ros.ament_cmake' and name 'phi_aria'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp1) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp1) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp1) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp1) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp1) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp1) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp1) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp1) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp1) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tp1' with type 'ros.ament_cmake' and name 'tp1'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp2) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp2) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp2) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp2) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp2) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp2) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp2) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp2) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp2) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tp2' with type 'ros.ament_cmake' and name 'tp2'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp3) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp3) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp3) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp3) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp3) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp3) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp3) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp3) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp3) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tp3' with type 'ros.ament_cmake' and name 'tp3'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp4) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp4) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp4) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp4) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp4) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp4) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp4) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp4) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/tp4) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tp4' with type 'ros.ament_cmake' and name 'tp4'
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jumombach/ros2_ws/install
+[0.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/jumombach/nav2_ws/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 356 installed packages in /opt/ros/humble
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'phi_aria' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'phi_aria' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'phi_aria' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'phi_aria' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'phi_aria' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'phi_aria' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'phi_aria' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'phi_aria' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'phi_aria' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'phi_aria' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jumombach/ros2_ws/build/phi_aria', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jumombach/ros2_ws/install/phi_aria', 'merge_install': False, 'path': '/home/jumombach/ros2_ws/src/phi_aria', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp1' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp1' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp1' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp1' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp1' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'tp1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jumombach/ros2_ws/build/tp1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jumombach/ros2_ws/install/tp1', 'merge_install': False, 'path': '/home/jumombach/ros2_ws/src/tp1', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp2' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp2' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'tp2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp2' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp2' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp2' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'tp2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jumombach/ros2_ws/build/tp2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jumombach/ros2_ws/install/tp2', 'merge_install': False, 'path': '/home/jumombach/ros2_ws/src/tp2', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp3' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp3' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp3' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp3' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp3' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'tp3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jumombach/ros2_ws/build/tp3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jumombach/ros2_ws/install/tp3', 'merge_install': False, 'path': '/home/jumombach/ros2_ws/src/tp3', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp4' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp4' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp4' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp4' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp4' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'tp4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'tp4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jumombach/ros2_ws/build/tp4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jumombach/ros2_ws/install/tp4', 'merge_install': False, 'path': '/home/jumombach/ros2_ws/src/tp4', 'symlink_install': False, 'test_result_base': None}
+[0.298s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.299s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jumombach/ros2_ws/src/phi_aria' with build type 'ament_cmake'
+[0.299s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jumombach/ros2_ws/src/phi_aria'
+[0.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jumombach/ros2_ws/src/tp1' with build type 'ament_cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jumombach/ros2_ws/src/tp1'
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jumombach/ros2_ws/src/tp2' with build type 'ament_cmake'
+[0.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jumombach/ros2_ws/src/tp2'
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jumombach/ros2_ws/src/tp3' with build type 'ament_cmake'
+[0.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jumombach/ros2_ws/src/tp3'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jumombach/ros2_ws/src/tp4' with build type 'ament_cmake'
+[0.317s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jumombach/ros2_ws/src/tp4'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/phi_aria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/phi_aria -- -j8 -l8
+[0.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+[0.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/tp2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 -- -j8 -l8
+[0.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/tp3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp3 -- -j8 -l8
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/tp4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp4 -- -j8 -l8
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 -- -j8 -l8
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/tp2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 -- -j8 -l8
+[0.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/phi_aria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/phi_aria -- -j8 -l8
+[0.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/tp3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp3 -- -j8 -l8
+[0.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/tp1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 --target install -- -j8 -l8
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/phi_aria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/phi_aria --target install -- -j8 -l8
+[0.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/tp2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 --target install -- -j8 -l8
+[0.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/tp3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp3 --target install -- -j8 -l8
+[0.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tp1)
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/tp1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp1 --target install -- -j8 -l8
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1' for CMake module files
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1' for CMake config files
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('tp1', 'cmake_prefix_path')
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp1/share/tp1/hook/cmake_prefix_path.ps1'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/tp1/share/tp1/hook/cmake_prefix_path.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp1/share/tp1/hook/cmake_prefix_path.sh'
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/lib'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/bin'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/lib/pkgconfig/tp1.pc'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/lib/python3.10/site-packages'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/bin'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.ps1'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.dsv'
+[0.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.sh'
+[0.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.bash'
+[0.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.zsh'
+[0.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/tp1/share/colcon-core/packages/tp1)
+[0.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tp2)
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/tp2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 --target install -- -j8 -l8
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2' for CMake module files
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2' for CMake config files
+[0.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('tp2', 'cmake_prefix_path')
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp2/share/tp2/hook/cmake_prefix_path.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/tp2/share/tp2/hook/cmake_prefix_path.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp2/share/tp2/hook/cmake_prefix_path.sh'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/lib'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/bin'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/lib/pkgconfig/tp2.pc'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/lib/python3.10/site-packages'
+[0.459s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/bin'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.sh'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.bash'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.zsh'
+[0.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/tp2/share/colcon-core/packages/tp2)
+[0.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phi_aria)
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/phi_aria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/phi_aria --target install -- -j8 -l8
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria' for CMake module files
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria' for CMake config files
+[0.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('phi_aria', 'cmake_prefix_path')
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/hook/cmake_prefix_path.ps1'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/hook/cmake_prefix_path.dsv'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/hook/cmake_prefix_path.sh'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/lib'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/bin'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/lib/pkgconfig/phi_aria.pc'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/lib/python3.10/site-packages'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/bin'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.dsv'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.sh'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.bash'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.zsh'
+[0.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/phi_aria/share/colcon-core/packages/phi_aria)
+[0.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tp3)
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3' for CMake module files
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/tp3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp3 --target install -- -j8 -l8
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3' for CMake config files
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('tp3', 'cmake_prefix_path')
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp3/share/tp3/hook/cmake_prefix_path.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/tp3/share/tp3/hook/cmake_prefix_path.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp3/share/tp3/hook/cmake_prefix_path.sh'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/lib'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/bin'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/lib/pkgconfig/tp3.pc'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/lib/python3.10/site-packages'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/bin'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.bash'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.zsh'
+[0.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/tp3/share/colcon-core/packages/tp3)
+[0.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tp2)
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2' for CMake module files
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2' for CMake config files
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('tp2', 'cmake_prefix_path')
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp2/share/tp2/hook/cmake_prefix_path.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/tp2/share/tp2/hook/cmake_prefix_path.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp2/share/tp2/hook/cmake_prefix_path.sh'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/lib'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/bin'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/lib/pkgconfig/tp2.pc'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/lib/python3.10/site-packages'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp2/bin'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.ps1'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.sh'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.bash'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp2/share/tp2/package.zsh'
+[0.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/tp2/share/colcon-core/packages/tp2)
+[0.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tp1)
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1' for CMake module files
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1' for CMake config files
+[0.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('tp1', 'cmake_prefix_path')
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp1/share/tp1/hook/cmake_prefix_path.ps1'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/tp1/share/tp1/hook/cmake_prefix_path.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp1/share/tp1/hook/cmake_prefix_path.sh'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/lib'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/bin'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/lib/pkgconfig/tp1.pc'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/lib/python3.10/site-packages'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp1/bin'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.sh'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.bash'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp1/share/tp1/package.zsh'
+[0.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/tp1/share/colcon-core/packages/tp1)
+[0.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(phi_aria)
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria' for CMake module files
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria' for CMake config files
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('phi_aria', 'cmake_prefix_path')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/hook/cmake_prefix_path.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/hook/cmake_prefix_path.dsv'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/hook/cmake_prefix_path.sh'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/lib'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/bin'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/lib/pkgconfig/phi_aria.pc'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/lib/python3.10/site-packages'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/phi_aria/bin'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.sh'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.bash'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/phi_aria/share/phi_aria/package.zsh'
+[0.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/phi_aria/share/colcon-core/packages/phi_aria)
+[0.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tp3)
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3' for CMake module files
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3' for CMake config files
+[0.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('tp3', 'cmake_prefix_path')
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp3/share/tp3/hook/cmake_prefix_path.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/tp3/share/tp3/hook/cmake_prefix_path.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp3/share/tp3/hook/cmake_prefix_path.sh'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/lib'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/bin'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/lib/pkgconfig/tp3.pc'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/lib/python3.10/site-packages'
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp3/bin'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.sh'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.bash'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp3/share/tp3/package.zsh'
+[0.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/tp3/share/colcon-core/packages/tp3)
+[3.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/tp4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp4 -- -j8 -l8
+[3.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jumombach/ros2_ws/build/tp4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp4 --target install -- -j8 -l8
+[3.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tp4)
+[3.964s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4' for CMake module files
+[3.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jumombach/ros2_ws/build/tp4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp4 --target install -- -j8 -l8
+[3.966s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4' for CMake config files
+[3.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('tp4', 'cmake_prefix_path')
+[3.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp4/share/tp4/hook/cmake_prefix_path.ps1'
+[3.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/tp4/share/tp4/hook/cmake_prefix_path.dsv'
+[3.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp4/share/tp4/hook/cmake_prefix_path.sh'
+[3.967s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/lib'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/bin'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/lib/pkgconfig/tp4.pc'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/lib/python3.10/site-packages'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/bin'
+[3.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.ps1'
+[3.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.dsv'
+[3.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.sh'
+[3.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.bash'
+[3.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.zsh'
+[3.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/tp4/share/colcon-core/packages/tp4)
+[3.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tp4)
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4' for CMake module files
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4' for CMake config files
+[3.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('tp4', 'cmake_prefix_path')
+[3.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp4/share/tp4/hook/cmake_prefix_path.ps1'
+[3.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jumombach/ros2_ws/install/tp4/share/tp4/hook/cmake_prefix_path.dsv'
+[3.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jumombach/ros2_ws/install/tp4/share/tp4/hook/cmake_prefix_path.sh'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/lib'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/bin'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/lib/pkgconfig/tp4.pc'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/lib/python3.10/site-packages'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/jumombach/ros2_ws/install/tp4/bin'
+[3.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.ps1'
+[3.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.dsv'
+[3.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.sh'
+[3.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.bash'
+[3.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/jumombach/ros2_ws/install/tp4/share/tp4/package.zsh'
+[3.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jumombach/ros2_ws/install/tp4/share/colcon-core/packages/tp4)
+[3.990s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.991s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.991s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.992s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.045s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.045s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[4.045s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.046s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jumombach/ros2_ws/install/local_setup.ps1'
+[4.047s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jumombach/ros2_ws/install/_local_setup_util_ps1.py'
+[4.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jumombach/ros2_ws/install/setup.ps1'
+[4.049s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jumombach/ros2_ws/install/local_setup.sh'
+[4.050s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jumombach/ros2_ws/install/_local_setup_util_sh.py'
+[4.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jumombach/ros2_ws/install/setup.sh'
+[4.051s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jumombach/ros2_ws/install/local_setup.bash'
+[4.052s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jumombach/ros2_ws/install/setup.bash'
+[4.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jumombach/ros2_ws/install/local_setup.zsh'
+[4.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jumombach/ros2_ws/install/setup.zsh'

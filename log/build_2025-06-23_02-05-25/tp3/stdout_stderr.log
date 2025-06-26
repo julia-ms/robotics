@@ -1,0 +1,139 @@
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp3'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp3'
+[35m[1mScanning dependencies of target exploration[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp3'
+[ 20%] [32mBuilding CXX object CMakeFiles/exploration.dir/src/Perception.cpp.o[0m
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:[m[K In member function ‘[01m[Kvoid Perception::updateCellsClassification()[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:262:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  262 |  for (int x = minKnownX_; [01;35m[Kx <= maxKnownX_[m[K; x++){
+      |                           [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:263:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  263 |         for (int y = minKnownY_; [01;35m[Ky <= maxKnownY_[m[K; y++){
+      |                                  [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:276:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  276 |     for (int x = minKnownX_; [01;35m[Kx <= maxKnownX_[m[K; x++){
+      |                              [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:277:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  277 |         for (int y = minKnownY_; [01;35m[Ky <= maxKnownY_[m[K; y++){
+      |                                  [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:285:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  285 |                         if (nx >= 0 && [01;35m[Knx < numCellsX_[m[K && ny >= 0 && ny < numCellsY_){ // ve se ta dentro do mapa
+      |                                        [01;35m[K~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:285:73:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  285 |                         if (nx >= 0 && nx < numCellsX_ && ny >= 0 && [01;35m[Kny < numCellsY_[m[K){ // ve se ta dentro do mapa
+      |                                                                      [01;35m[K~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:298:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  298 |     for (int x = minKnownX_; [01;35m[Kx <= maxKnownX_[m[K; x++){
+      |                              [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:299:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  299 |         for (int y = minKnownY_; [01;35m[Ky <= maxKnownY_[m[K; y++){
+      |                                  [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:311:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  311 |                         if (nx >= 0 && [01;35m[Knx < numCellsX_[m[K && ny >= 0 && ny < numCellsY_){
+      |                                        [01;35m[K~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:311:73:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  311 |                         if (nx >= 0 && nx < numCellsX_ && ny >= 0 && [01;35m[Kny < numCellsY_[m[K){
+      |                                                                      [01;35m[K~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:330:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  330 | for (int x = minKnownX_; [01;35m[Kx <= maxKnownX_[m[K; x++){
+      |                          [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:331:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  331 |         for (int y = minKnownY_; [01;35m[Ky <= maxKnownY_[m[K; y++){
+      |                                  [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:[m[K In member function ‘[01m[Kvoid Perception::computeHeuristic(int)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:366:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  366 |      for (int x = minKnownX_; [01;35m[Kx <= maxKnownX_[m[K; x++){
+      |                               [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:367:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  367 |         for (int y = minKnownY_; [01;35m[Ky <= maxKnownY_[m[K; y++){
+      |                                  [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:[m[K In member function ‘[01m[Kint Perception::computeShortestPathToFrontier(int)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:455:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  455 |             if ([01;35m[Knx < minKnownX_[m[K || nx > maxKnownX_ || ny < minKnownY_ || ny > maxKnownY_) continue; // se ta fora do mapa sai
+      |                 [01;35m[K~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:455:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  455 |             if (nx < minKnownX_ || [01;35m[Knx > maxKnownX_[m[K || ny < minKnownY_ || ny > maxKnownY_) continue; // se ta fora do mapa sai
+      |                                    [01;35m[K~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:455:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  455 |             if (nx < minKnownX_ || nx > maxKnownX_ || [01;35m[Kny < minKnownY_[m[K || ny > maxKnownY_) continue; // se ta fora do mapa sai
+      |                                                       [01;35m[K~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:455:77:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  455 |             if (nx < minKnownX_ || nx > maxKnownX_ || ny < minKnownY_ || [01;35m[Kny > maxKnownY_[m[K) continue; // se ta fora do mapa sai
+      |                                                                          [01;35m[K~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:400:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  400 |     int [01;35m[Krx[m[K = robotCellIndex % numCellsX_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:401:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  401 |     int [01;35m[Kry[m[K = robotCellIndex / numCellsX_;
+      |         [01;35m[K^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:[m[K In member function ‘[01m[Kvoid Perception::updateGridKnownLimits()[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:483:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  483 |     for(int x=0; [01;35m[Kx<numCellsX_[m[K; x++){
+      |                  [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:484:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  484 |         for(int y=0; [01;35m[Ky<numCellsY_[m[K; y++){
+      |                      [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:488:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  488 |                 if([01;35m[Kx<minKnownX_[m[K) minKnownX_ = x;
+      |                    [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:489:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  489 |                 if([01;35m[Ky<minKnownY_[m[K) minKnownY_ = y;
+      |                    [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:490:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  490 |                 if([01;35m[Kx>maxKnownX_[m[K) maxKnownX_ = x;
+      |                    [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:491:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  491 |                 if([01;35m[Ky>maxKnownY_[m[K) maxKnownY_ = y;
+      |                    [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:[m[K In member function ‘[01m[Kint Perception::clusterFrontiersAndReturnIndexOfClosestOne(int)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:509:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  509 |     for(int x=minKnownX_; [01;35m[Kx<=maxKnownX_[m[K; x++){
+      |                           [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:510:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  510 |         for(int y=minKnownY_; [01;35m[Ky<=maxKnownY_[m[K; y++){
+      |                               [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:523:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  523 |     for(int x=minKnownX_; [01;35m[Kx<=maxKnownX_[m[K; x++){
+      |                           [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:524:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  524 |         for(int y=minKnownY_; [01;35m[Ky<=maxKnownY_[m[K; y++){
+      |                               [01;35m[K~^~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:613:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  613 |         for(int k=0;[01;35m[Kk<frontierCentersIndices.size()[m[K;k++){
+      |                     [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp3/src/Perception.cpp:625:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  625 |         for(int k=0;[01;35m[Kk<frontierCentersIndices.size()[m[K;k++){
+      |                     [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 40%] [32m[1mLinking CXX executable exploration[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'
+[100%] Built target exploration
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp3'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp3'
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'
+[100%] Built target exploration
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp3'
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/jumombach/ros2_ws/install/tp3/lib/tp3/exploration
+-- Set runtime path of "/home/jumombach/ros2_ws/install/tp3/lib/tp3/exploration" to ""
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/launch
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/launch/p3dx-rosaria.launch.py
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/config
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/config/p3dx.rviz
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/ament_index/resource_index/package_run_dependencies/tp3
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/ament_index/resource_index/parent_prefix_path/tp3
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/environment/path.sh
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/environment/path.dsv
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/local_setup.bash
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/local_setup.sh
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/local_setup.zsh
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/local_setup.dsv
+-- Installing: /home/jumombach/ros2_ws/install/tp3/share/tp3/package.dsv
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/ament_index/resource_index/packages/tp3
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/cmake/tp3Config.cmake
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/cmake/tp3Config-version.cmake
+-- Up-to-date: /home/jumombach/ros2_ws/install/tp3/share/tp3/package.xml

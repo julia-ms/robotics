@@ -1,0 +1,42 @@
+[0.023s] Invoking command in '/home/jumombach/ros2_ws/build/tp2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 -- -j8 -l8
+[0.036s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[0.041s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[0.046s] [35m[1mScanning dependencies of target mapping[0m
+[0.075s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[0.085s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[0.086s] [ 25%] [32mBuilding CXX object CMakeFiles/mapping.dir/src/Perception.cpp.o[0m
+[2.754s] [ 50%] [32m[1mLinking CXX executable mapping[0m
+[3.464s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[3.467s] [100%] Built target mapping
+[3.467s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[3.471s] Invoked command in '/home/jumombach/ros2_ws/build/tp2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 -- -j8 -l8
+[3.490s] Invoking command in '/home/jumombach/ros2_ws/build/tp2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 --target install -- -j8 -l8
+[3.500s] gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[3.503s] gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp2'
+[3.507s] gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[3.519s] [100%] Built target mapping
+[3.519s] gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp2'
+[3.523s] [36mInstall the project...[0m
+[3.525s] -- Install configuration: ""
+[3.525s] -- Installing: /home/jumombach/ros2_ws/install/tp2/lib/tp2/mapping
+[3.533s] -- Set runtime path of "/home/jumombach/ros2_ws/install/tp2/lib/tp2/mapping" to ""
+[3.533s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/launch
+[3.534s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/launch/p3dx-rosaria.launch.py
+[3.534s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/config
+[3.534s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/config/p3dx.rviz
+[3.534s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/package_run_dependencies/tp2
+[3.534s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/parent_prefix_path/tp2
+[3.534s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/ament_prefix_path.sh
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/ament_prefix_path.dsv
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/path.sh
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/environment/path.dsv
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.bash
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.sh
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.zsh
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/local_setup.dsv
+[3.535s] -- Installing: /home/jumombach/ros2_ws/install/tp2/share/tp2/package.dsv
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/ament_index/resource_index/packages/tp2
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/cmake/tp2Config.cmake
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/cmake/tp2Config-version.cmake
+[3.535s] -- Up-to-date: /home/jumombach/ros2_ws/install/tp2/share/tp2/package.xml
+[3.537s] Invoked command in '/home/jumombach/ros2_ws/build/tp2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/jumombach/ros2_ws/build/tp2 --target install -- -j8 -l8

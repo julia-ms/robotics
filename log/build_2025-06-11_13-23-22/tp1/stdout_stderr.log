@@ -1,0 +1,44 @@
+gmake[1]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[35m[1mScanning dependencies of target navigation[0m
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[2]: Entering directory '/home/jumombach/ros2_ws/build/tp1'
+[ 20%] [32mBuilding CXX object CMakeFiles/navigation.dir/src/Action.cpp.o[0m
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::avoidObstacles(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:41:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAction::obstaclesLeft()[m[K’
+   41 |     if([01;31m[KobstaclesLeft()[m[K){
+      |        [01;31m[K~~~~~~~~~~~~~^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool Action::obstaclesLeft(std::vector<float>)[m[K’
+   11 | bool [01;36m[KAction[m[K::obstaclesLeft(std::vector<float> lasers){
+      |      [01;36m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:11:6:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:44:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAction::obstaclesRight()[m[K’
+   44 |     }else if([01;31m[KobstaclesRight()[m[K){
+      |              [01;31m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:20:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool Action::obstaclesRight(std::vector<float>)[m[K’
+   20 | bool [01;36m[KAction[m[K::obstaclesRight(std::vector<float> lasers){
+      |      [01;36m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:20:6:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:47:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAction::obstaclesFront()[m[K’
+   47 |     }else if([01;31m[KobstaclesFront()[m[K){
+      |              [01;31m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:5:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool Action::obstaclesFront(std::vector<float>)[m[K’
+    5 | bool [01;36m[KAction[m[K::obstaclesFront(std::vector<float> lasers){
+      |      [01;36m[K^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:5:6:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:35:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klasers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   35 | void Action::avoidObstacles([01;35m[Kstd::vector<float> lasers[m[K, std::vector<float> sonars)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:35:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   35 | void Action::avoidObstacles(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:[m[K In member function ‘[01m[Kvoid Action::keepAsFarthestAsPossibleFromWalls(std::vector<float>, std::vector<float>)[m[K’:
+[01m[K/home/jumombach/ros2_ws/src/tp1/src/Action.cpp:56:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksonars[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 | tion::keepAsFarthestAsPossibleFromWalls(std::vector<float> lasers, [01;35m[Kstd::vector<float> sonars[m[K)
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/navigation.dir/build.make:76: CMakeFiles/navigation.dir/src/Action.cpp.o] Error 1
+gmake[2]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[1]: Leaving directory '/home/jumombach/ros2_ws/build/tp1'
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/navigation.dir/all] Error 2
+gmake: *** [Makefile:141: all] Error 2
